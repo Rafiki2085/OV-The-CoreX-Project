@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "apotheosis:rogue_spawner", "Unknown recipe category:", "Added recipe category decorator:", "[AutoHiding]", "BookContentResourceListenerLoader:", "Could not apply radiation glow layer"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "apotheosis:rogue_spawner", "Unknown recipe category:", "Added recipe category decorator:", "[AutoHiding]", "BookContentResourceListenerLoader:", "Could not apply radiation glow layer"]
+

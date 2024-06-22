@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "The CoreX Project",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "",
   "files": [
     {
@@ -131,7 +131,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 5453946,
+      "fileID": 5458843,
       "required": true
     },
     {
@@ -201,7 +201,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 5454157,
+      "fileID": 5458914,
       "required": true
     },
     {
@@ -445,6 +445,11 @@
       "required": true
     },
     {
+      "projectID": 912104,
+      "fileID": 5179463,
+      "required": true
+    },
+    {
       "projectID": 227639,
       "fileID": 5071019,
       "required": true
@@ -532,6 +537,11 @@
     {
       "projectID": 411045,
       "fileID": 4578649,
+      "required": true
+    },
+    {
+      "projectID": 623560,
+      "fileID": 4583425,
       "required": true
     },
     {
@@ -832,11 +842,6 @@
     {
       "projectID": 308989,
       "fileID": 5281700,
-      "required": true
-    },
-    {
-      "projectID": 881586,
-      "fileID": 5225304,
       "required": true
     },
     {
@@ -1160,6 +1165,11 @@
       "required": true
     },
     {
+      "projectID": 881586,
+      "fileID": 5225304,
+      "required": true
+    },
+    {
       "projectID": 223565,
       "fileID": 5442135,
       "required": true
@@ -1186,7 +1196,7 @@
     },
     {
       "projectID": 266936,
-      "fileID": 5229698,
+      "fileID": 5458850,
       "required": true
     },
     {
@@ -1266,7 +1276,7 @@
     },
     {
       "projectID": 64578,
-      "fileID": 5458410,
+      "fileID": 5460093,
       "required": true
     },
     {

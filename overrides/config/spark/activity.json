@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "DataDal",
+      "uniqueId": "50ab35c4-2c0d-4ce3-8197-4eb73844f7f2"
+    },
+    "time": 1719090715515,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\daltonPrimary\\curseforge\\minecraft\\Instances\\The CoreX Project\\config\\spark\\profile-2024-06-22_17.11.55.sparkprofile"
+    }
+  }
+]

@@ -1,3 +1,52 @@
+**Version: 0.0.7**
+
+**Config**
+
+Disable silent gear starter blueprints
+
+Log begone
+ Disable apotheosis rogue spawner error message
+ Disabled other log spam messages
+
+Re-unbound all keybinds
+
+Performed terrain gen speed test with spark enabled
+
+Adjusted main menu more
+
+
+**Add**
+
+Created datapack to disable Iron's Spells and Spellbooks guidebook from spawning on spawn
+
+Add base defaultconfigs
+
+Add log begone
+
+Add sparse structures reforged
+
+**Update**
+
+EnderIO
+
+JAOPCA
+
+Moonlight Lib
+
+Supplementaries
+
+**Quests**
+
+Prepare chapters
+ Getting Started
+ Challenges
+ End Game
+ Actually end game
+  Avaritia
+  Draconic Evolution
+
+---------------------------------------------------------
+
 **Changelog - 0.0.6**
 
 **Config**

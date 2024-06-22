@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "7E39B83EB7155D81", title: "Getting Started" }
+		{ id: "2AEF3B2A7B460B12", title: "Challenges" }
+		{ id: "51D7A3F7F5C9F779", title: "End Game" }
+		{ id: "1988D321F047BAA2", title: "Actually end game" }
+	]
+}
