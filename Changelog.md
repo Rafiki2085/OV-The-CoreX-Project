@@ -1,6 +1,6 @@
 ---------------------------------------------------------
 
-**Changelog _ 0.0.5**
+**Version: 0.0.5**
 
 **Config**
 
@@ -16,7 +16,7 @@ Add Better Tag NBT.
 
 ---------------------------------------------------------
 
-**Changelog - 0.0.4**
+**Version: 0.0.4**
 
 **Config**
 
@@ -83,7 +83,7 @@ Add Login Protection
 
 ---------------------------------------------------------
 
-**Changelog - 0.0.3**
+**Version: 0.0.3**
 
 **Updated**
 
@@ -103,7 +103,7 @@ Changed a few configs (Alex Caves, Quark, Apotheosis).
 
 ---------------------------------------------------------
 
-**Changelog - 0.0.2**
+**Version: 0.0.2**
 
 Convert everything to CurseForge
 
@@ -232,7 +232,7 @@ Add MowLib
 
 ---------------------------------------------------------
 
-**Changelog - 0.0.1**
+**Version: 0.0.1**
 
 Convert everything to CurseForge
 
