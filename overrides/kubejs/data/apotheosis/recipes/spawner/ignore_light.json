@@ -1,0 +1,14 @@
+{
+	"type": "apotheosis:spawner_modifier",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "spawner"
+	}],
+	"mainhand": {
+		"item": "minecraft:glow_ink_sac"
+	},
+	"stat_changes": [{
+		"id": "ignore_light",
+		"value": true
+	}]
+}

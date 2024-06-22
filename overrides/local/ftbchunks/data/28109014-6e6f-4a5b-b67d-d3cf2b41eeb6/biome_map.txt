@@ -1,0 +1,9 @@
+#1D9 regions_unexplored:blackwood_taiga
+#4E1 regions_unexplored:clover_plains
+#6DD regions_unexplored:grassy_beach
+#7E1 regions_unexplored:highland_fields
+#4F1 minecraft:ocean
+#4AB regions_unexplored:redwoods
+#5FF minecraft:river
+#7EA regions_unexplored:sparse_redwoods
+#5F8 regions_unexplored:willow_forest

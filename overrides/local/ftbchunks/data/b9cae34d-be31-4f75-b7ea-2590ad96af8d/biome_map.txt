@@ -1,0 +1,9 @@
+#1D9 regions_unexplored:blackwood_taiga
+#6D8 regions_unexplored:boreal_taiga
+#3D6 minecraft:cold_ocean
+#6DD regions_unexplored:grassy_beach
+#561 regions_unexplored:gravel_beach
+#4D4 regions_unexplored:muddy_river
+#4F1 minecraft:ocean
+#11D regions_unexplored:pine_taiga
+#5FF minecraft:river
