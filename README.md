@@ -1,1 +1,1 @@
-# OV-The-CoreX-Project
+# Ocelot Valley: The CoreX Project
