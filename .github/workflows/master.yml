@@ -1,0 +1,14 @@
+name: MasterDeployCI
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Zip Folder
+      run: zip -r release.zip . -x ".git/*" ".github/*" ".gitignore" "Changelog.md" "LICENSE" "README.md"
+    - name: Release to Github
+      run: echo "Release"
