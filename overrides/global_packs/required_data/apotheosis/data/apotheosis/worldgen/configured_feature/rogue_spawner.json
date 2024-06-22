@@ -1,0 +1,8 @@
+{
+    "forge:conditions": [{
+        "type": "forge:false"
+    }],
+    "type": "apotheosis:rogue_spawner",
+    "config": {}
+
+}
