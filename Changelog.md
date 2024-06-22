@@ -1,3 +1,21 @@
+**Changelog - 0.0.6**
+
+**Config**
+
+Remove TOP book on spawn
+
+
+**Added**
+
+Changelog screen
+
+
+**Update**
+
+Update Embeddium
+
+Update EnderIO
+
 ---------------------------------------------------------
 
 **Version: 0.0.5**
