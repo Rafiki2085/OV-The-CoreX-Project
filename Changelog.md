@@ -4,6 +4,8 @@
 
 Remove TOP book on spawn
 
+Changed around title screen
+
 
 **Added**
 
