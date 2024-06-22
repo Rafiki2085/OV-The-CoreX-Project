@@ -1,7 +1,0 @@
-#47F minecraft:birch_forest
-#1D9 regions_unexplored:blackwood_taiga
-#4E1 regions_unexplored:clover_plains
-#4F9 minecraft:dark_forest
-#1DF minecraft:old_growth_birch_forest
-#5FF minecraft:river
-#40F javd:void
