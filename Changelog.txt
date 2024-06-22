@@ -1,6 +1,8 @@
 ---------------------------------------------------------
 
-Changelog 0.0.5
+**Changelog 0.0.5**
+
+**Config**
 
 Changed the recipes for the consumables of Apotheosis spawners
 
@@ -8,14 +10,15 @@ Changed the recipe for the Void Portal (Temp to live in when we go into testing 
 
 Changed the lootr texture back to the original one.
 
+**Added**
+
 Add Better Tag NBT.
 
 ---------------------------------------------------------
 
+**Changelog - 0.0.4**
 
-Changelog - 0.0.4
-
-Config
+**Config**
 
 Quark
   "Monster Box" = true -> "Monster Box" = false
@@ -42,7 +45,7 @@ Fancy Menu
    Title image change (Placeholder?)
    Menu button change
 
-Added
+**Added**
 
 Add Global Packs
   Created apotheosis datapack to disable rogue spawners
@@ -75,24 +78,32 @@ Add Radium Reforged
 
 Add No Chat Reports
 
-Add Login Protection 
+Add Login Protection
 
 
 ---------------------------------------------------------
 
-Changelog - 0.0.3 - Squ
+**Changelog - 0.0.3**
+
+**Updated**
 
 Downgraded FLIB 0.0.12
+
+**Removed**
 
 Removed Ultimine 
 
 Removed Valhesa / Valhesa Core.
 
+
+**Config**
+
+
 Changed a few configs (Alex Caves, Quark, Apotheosis).
 
 ---------------------------------------------------------
 
-Changelog - 0.0.2 -- DataDal
+**Changelog - 0.0.2**
 
 Convert everything to CurseForge
 
@@ -101,7 +112,7 @@ Convert to Forge from NeoForge
 Removed some unnecessary and duplicate mods
 
 
-Added
+**Added**
 
 Add KubeJS Create, Thermal
 
@@ -221,7 +232,7 @@ Add MowLib
 
 ---------------------------------------------------------
 
-Changelog - 0.0.1
+**Changelog - 0.0.1**
 
 Convert everything to CurseForge
 
@@ -229,7 +240,7 @@ Convert to Forge
 
 Removed some unnecessary and duplicate mods
 
-Added
+**Added**
 
 Add KubeJS Create, Thermal
 
