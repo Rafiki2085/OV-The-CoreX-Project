@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Create Release Folder
-      run: rsync -arv --exclude='.git/' --exclude='.github/' --exclude='.gitignore' --exclude='Changelog.md' --exclude='LICENSE' --exclude='README.md' . ./release
+      run: rsync -arv --exclude ".git/" --exclude ".github/" --exclude ".gitignore" --exclude "Changelog.md" --exclude "LICENSE" --exclude "README.md" . ./release
     - name: Switch to Release Folder
       run: |
         cd release
