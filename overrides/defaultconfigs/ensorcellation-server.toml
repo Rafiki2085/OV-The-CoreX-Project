@@ -22,7 +22,7 @@
 		#Range: 1 ~ 100
 		"Effect Chance" = 20
 		#If TRUE, mobs wearing armor with this Enchantment can teleport players.
-		"Mobs Teleport Players" = false
+		"Mobs Teleport Players" = true
 
 	[Enchantments."Flaming Rebuke"]
 		#If TRUE, the Flaming Rebuke Enchantment is available for Armor, Shields, and Horse Armor.
@@ -50,7 +50,7 @@
 		#Range: 1 ~ 100
 		"Effect Chance" = 20
 		#If TRUE, mobs wearing armor with this Enchantment can knockback players.
-		"Mobs Knockback Players" = false
+		"Mobs Knockback Players" = true
 
 	[Enchantments."Air Affinity"]
 		#If TRUE, the Air Affinity Enchantment is available for Helmets.

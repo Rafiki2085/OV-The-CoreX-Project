@@ -25,6 +25,43 @@ Emojiful - Remove all existing emojis because of lag, going to put in new emojis
  - twemoji = true -> false
  - custom = true -> false
 
+EnderIO
+ - darkSteelLadderBoost = 0.15 -> 0.20
+
+Create
+ - bulkPressing = false -> true
+ - crushingDamage = 4 -> 6
+ - vaultCapacity = 20 -> 30
+
+Elevator ID
+ - sameColor = false -> true
+
+Ensorcellation
+ - "Mobs Teleport Players" = false -> true
+ - "Mobs Knockback Players" = false -> true
+
+Extra storage
+ - base_energy = 15 -> 25
+
+Packagedauto
+ - energy_capacity = 5000 -> 7000
+ - energy_req = 500 -> 1000
+ - energy_usage = 100 -> 200
+
+Railways
+ - realisticTrains = false -> true
+
+Rftools base
+ - maxInfuse = 256 -> 512
+ - usePerTick = 600 -> 1000
+
+Sophisticated backpacks
+ - allowOpeningOtherPlayerBackpacks = true -> false
+ - inventorySlotCount = 81 -> 91
+ - inventorySlotCount = 108 -> 120
+ - inventorySlotCount = 120 -> 136
+ - playJukebox = true -> false
+
 **Update**
 
 Updated Create Crafts & Additions

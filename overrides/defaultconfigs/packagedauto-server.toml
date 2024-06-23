@@ -10,13 +10,13 @@
 [packager]
 	#How much FE the Packager should hold.
 	#Range: > 0
-	energy_capacity = 5000
+	energy_capacity = 7000
 	#How much total FE the Packager should use per operation.
 	#Range: > 0
-	energy_req = 500
+	energy_req = 1000
 	#How much FE/t maximum the Packager can use.
 	#Range: > 0
-	energy_usage = 100
+	energy_usage = 200
 	#Should the Packager draw energy from ME systems.
 	draw_me_energy = true
 

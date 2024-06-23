@@ -15,7 +15,7 @@
 	#.
 	#.
 	#Allow the Mechanical Press to process entire stacks at a time.
-	bulkPressing = false
+	bulkPressing = true
 	#.
 	#Allow the Mechanical Saw to process entire stacks at a time.
 	bulkCutting = false
@@ -72,7 +72,7 @@
 	#.
 	#Damage dealt by active Crushing Wheels.
 	#Range: > 0
-	crushingDamage = 4
+	crushingDamage = 6
 	#.
 	#[in Revolutions per Minute]
 	#Maximum allowed rotation speed for any Kinetic Block.
@@ -373,7 +373,7 @@
 	#.
 	#The total amount of stacks a vault can hold per block in size.
 	#Range: > 1
-	vaultCapacity = 20
+	vaultCapacity = 30
 	#.
 	#The amount of ticks a brass tunnel waits between distributions.
 	#Range: 1 ~ 10
