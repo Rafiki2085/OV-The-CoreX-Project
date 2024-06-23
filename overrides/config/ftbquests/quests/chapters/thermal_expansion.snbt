@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "thermal_expansion"
-	group: "713BC62A2750293E"
+	group: "3A84D759D3560DF5"
 	icon: {
 		Count: 1
 		id: "thermal:energy_cell"
@@ -16,7 +16,7 @@
 		}
 	}
 	id: "77AEACF5FAFC2EDB"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 	title: "Thermal Expansion"

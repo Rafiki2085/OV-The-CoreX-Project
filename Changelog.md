@@ -1,3 +1,62 @@
+**Version: 0.0.9**
+
+**Config**
+
+Quest chapters
+
+Scaling Health - Will tune overtime
+ - blight render = true -> false
+ - enableBlights = true -> false
+ - Datapack created
+   - Difficulty exemptions/villagers, wandering traders
+   - Damage scaling hostiles not peacefuls
+   - Max difficulty 50
+   - Difficulty fine tuning on kills, lunar cycle, dimension, biome
+   - Player max health 100, min health 20, starting health 20
+
+Clean tooltips
+ - Disable durability tooltip in favor of durability tooltips
+
+No Chat Reports
+ - "showEncryptionButton": true -> false
+ - "demandOnClient": false -> true
+
+Emojiful - Remove all existing emojis because of lag, going to put in new emojis eventually
+ - twemoji = true -> false
+ - custom = true -> false
+
+**Update**
+
+Updated Create Crafts & Additions
+
+Updated GeckoLib
+
+**Add**
+
+Add Comforts
+
+Add In Control
+
+**Remove**
+
+Remove passive skill tree additions
+
+Remove building wands - redundant (building gadgets)
+
+Remove exchangers - redundant (building gadgets)
+
+Remove Better Tag NBT Tips
+
+**Recipes**
+
+Remove temporary void portal recipe
+
+Remove default mahou tsukai mortar and pestle recipe
+
+Add mahou tsukai mortar and pestle recipe
+
+---------------------------------------------------------
+
 **Version: 0.0.8**
 
 **Config**

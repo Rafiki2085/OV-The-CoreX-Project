@@ -4,15 +4,19 @@
 
 ServerEvents.recipes(event => {
 
-  event.shapeless(Item.of('javd:portal_block'), [ // arg 1: output
-    'minecraft:dirt', //arg 2: the array of inputs
-    
-  ])
-
-    //Bamboo blocks
-    //transmute(['quark:bamboo_block', 'thermal:bamboo_block'])
-    //transmute(['thermal:bamboo_block', 'quark:bamboo_block'])
-
+    event.shaped(
+        Item.of('mahoutsukai:mortar_and_pestle', 1),
+        [
+            ' A ',
+            ' B ',
+            ' C '
+        ],
+        {
+            A: 'mahoutsukai:pestle',
+            B: 'draconicevolution:chaotic_core',
+            C: 'mahoutsukai:mortar'
+        }
+    )
 
 
 })

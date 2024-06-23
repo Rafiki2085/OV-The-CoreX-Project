@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "draconic_evolution_2"
-	group: "06E7D4ADA6791276"
+	group: "4A2EB62E17E0DF8E"
 	icon: "draconicevolution:awakened_draconium_block"
 	id: "44A6D894AB0761A2"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 	title: "Draconic Evolution"

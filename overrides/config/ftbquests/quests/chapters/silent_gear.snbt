@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "silent_gear"
-	group: "713BC62A2750293E"
+	group: "6DE0D4456A54EB62"
 	icon: "silentgear:guide_book"
 	id: "686226AA6E13620D"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 	title: "Silent Gear"

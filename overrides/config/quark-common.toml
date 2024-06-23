@@ -1550,11 +1550,11 @@
 	"Chest Searching" = true
 	"Elytra Indicator" = true
 	"Greener Grass" = true
-	"Improved Tooltips" = true
+	"Improved Tooltips" = false
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = true
 	"Soul Candles" = true
-	"Usage Ticker" = true
+	"Usage Ticker" = false
 	"Uses For Curses" = true
 	"Variant Animal Textures" = true
 	"Wool Shuts Up Minecarts" = true

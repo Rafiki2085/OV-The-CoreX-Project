@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spice_of_life_carrot_edition"
+	group: "000736A5A8CD3B13"
+	icon: "solcarrot:food_book"
+	id: "7C68A971B9478DF7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Spice of Life: Carrot Edition"
+}
