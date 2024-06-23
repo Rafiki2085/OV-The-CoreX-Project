@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "713BC62A2750293E"
+	icon: {
+		Count: 1
+		id: "thermal:energy_cell"
+		tag: {
+			BlockEntityTag: {
+				Energy: 0
+				EnergyMax: 1000000
+				EnergyRecv: 1000
+				EnergySend: 1000
+			}
+		}
+	}
+	id: "77AEACF5FAFC2EDB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thermal Expansion"
+}

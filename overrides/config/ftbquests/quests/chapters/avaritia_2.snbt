@@ -1,9 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "avaritia"
-	group: "1988D321F047BAA2"
-	id: "44DF4CFB90E08DF7"
+	filename: "avaritia_2"
+	group: "06E7D4ADA6791276"
+	icon: "avaritia:infinity_catalyst"
+	id: "1E8C1942314B983E"
 	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
