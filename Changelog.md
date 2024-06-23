@@ -1,3 +1,62 @@
+**Version: 0.0.8**
+
+**Config**
+
+Mahou Tsukai
+ - Mahou resets on death
+ - Innate cap -> 100
+ - Mahou required to increase capacity 100 -> 250
+ - Mahou required to increase capacity percent of max mana 0.0 -> 0.1
+ - Mahou maximum amount of mana required for increase 100 -> 10000
+
+XNet Gasses
+ - maxGasRateNormal 1000 -> 50000
+ - maxGasRateAdvanced 5000 -> 100000
+
+XNet
+ - maxFluidRateNormal 1000 -> 50000
+ - maxFluidRateAdvanced -> 5000 -> 100000
+
+SOL Carrot Edition
+ - milestones = [5, 10, 15, 20, 25] -> 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100
+
+FTBChunks
+ - fake_players: "check" -> allow
+ - force_load_mode: "default" -> always
+
+Trash Cans
+ - Allow void nuclear waste false -> true
+
+Powah
+ - "dry_ice_veins_per_chunk": 9 -> 3
+ - Reactors
+   - Generation rate "nitro": 500000 -> 1000000
+   - Transfer rate "nitro": 2000000 -> 4000000
+
+Recipe essentials
+ - "disableRecipebook": false -> true
+
+Passive skill tree
+ - "Maximum skill points" = 85 -> 105
+
+Waystones
+ - maximumBaseXpCost = 3.0 -> 30.0
+ - frequency = 25 -> 10
+
+Updated base defaultconfigs to include new mods
+
+**Add**
+
+Add Mahou Tsukai
+
+Add Passive Skill Tree
+
+Add Passive Skill Tree Additions
+
+Add Scaling Health
+
+---------------------------------------------------------
+
 **Version: 0.0.7**
 
 **Config**
@@ -5,8 +64,8 @@
 Disable silent gear starter blueprints
 
 Log begone
- Disable apotheosis rogue spawner error message
- Disabled other log spam messages
+ - Disable apotheosis rogue spawner error message
+ - Disabled other log spam messages
 
 Re-unbound all keybinds
 
@@ -38,12 +97,12 @@ Supplementaries
 **Quests**
 
 Prepare chapters
- Getting Started
- Challenges
- End Game
- Actually end game
-  Avaritia
-  Draconic Evolution
+ - Getting Started
+ - Challenges
+ - End Game
+ - Actually end game
+   - Avaritia
+   -  Draconic Evolution
 
 ---------------------------------------------------------
 

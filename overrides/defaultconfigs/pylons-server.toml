@@ -27,14 +27,14 @@
 	#The total duration (in seconds) required before a Potion Filter can be used.
 	#By default this is 3600 seconds/1 hour, which is equivalent to 7.5 vanilla extended potions.
 	#Range: 1 ~ 28800
-	infusionRequiredDuration = 3600
+	infusionRequiredDuration = 28800
 	#The max duration of effects (in seconds) applied to the player.
 	#The duration is refreshed up to this amount every 60 ticks.
 	#Range: 5 ~ 60
 	infusionAppliedDuration = 20
 	#Whether the Infusion Pylon chunkloads itself.
 	#This is limited to one pylon per player, while the player is online.
-	infusionChunkloads = true
+	infusionChunkloads = false
 	#Effects that may be used in the Infusion Pylon.
 	#List may include either effect IDs (like `minecraft:strength`) or an entire namespace (like `minecraft`).
 	#If the list is empty, then all effects will be allowed except for those specifically denied.

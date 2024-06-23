@@ -1,102 +1,110 @@
 {
 	"level_seeds": [
 		{
-			"dim": "deeperdarker:otherside",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "minecraft:overworld",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "minecraft:the_end",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "createteleporters:pocket_dimension",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "javd:void",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "mythicbotany:alfheim",
-			"seed": 6552557801615656000
-		},
-		{
 			"dim": "jamd:end",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "jamd:mining",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "bloodmagic:dungeon",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "minecraft:the_nether",
-			"seed": 6552557801615656000
+			"seed": -4514582997007070337
 		},
 		{
 			"dim": "jamd:nether",
-			"seed": 6552557801615656000
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "bloodmagic:dungeon",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "javd:void",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "mahoutsukai:reality_marble",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "mythicbotany:alfheim",
+			"seed": -4514582997007070337
 		},
 		{
 			"dim": "twilightforest:twilight_forest",
-			"seed": 6552557801615656000
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "jamd:mining",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "createteleporters:pocket_dimension",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": -4514582997007070337
 		}
 	],
 	"structure_seeds": [
 		{
-			"dim": "deeperdarker:otherside",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "minecraft:overworld",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "minecraft:the_end",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "createteleporters:pocket_dimension",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "javd:void",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "mythicbotany:alfheim",
-			"seed": 6552557801615656000
-		},
-		{
 			"dim": "jamd:end",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "jamd:mining",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "bloodmagic:dungeon",
-			"seed": 6552557801615656000
-		},
-		{
-			"dim": "minecraft:the_nether",
-			"seed": 6552557801615656000
+			"seed": -4514582997007070337
 		},
 		{
 			"dim": "jamd:nether",
-			"seed": 6552557801615656000
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "bloodmagic:dungeon",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "javd:void",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "mahoutsukai:reality_marble",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "deeperdarker:otherside",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "mythicbotany:alfheim",
+			"seed": -4514582997007070337
 		},
 		{
 			"dim": "twilightforest:twilight_forest",
-			"seed": 6552557801615656000
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "jamd:mining",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "createteleporters:pocket_dimension",
+			"seed": -4514582997007070337
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": -4514582997007070337
 		}
 	]
 }
