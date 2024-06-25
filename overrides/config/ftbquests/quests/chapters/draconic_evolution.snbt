@@ -3,8 +3,16 @@
 	default_quest_shape: ""
 	filename: "draconic_evolution"
 	group: "7E39B83EB7155D81"
-	icon: "minecraft:oak_log"
+	icon: "minecraft:crafting_table"
 	id: "663C97A6A799ECAC"
+	images: [{
+		height: 1.0d
+		image: "minecraft:block/nether_portal"
+		rotation: 0.0d
+		width: 0.03125d
+		x: 5.0d
+		y: 5.0d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -39,7 +47,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -1.0d
 		}
 		{
@@ -69,13 +77,333 @@
 				}
 				type: "item"
 			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5463E77CEFB50DCB"]
+			id: "523E20C03376EEF1"
+			tasks: [{
+				id: "540706235369A292"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
 			x: -10.0d
 			y: -1.0d
 		}
 		{
-			id: "3DC813C1C52657F6"
-			x: 0.0d
-			y: 0.0d
+			dependencies: ["523E20C03376EEF1"]
+			id: "70BD6E2233F50F3E"
+			tasks: [{
+				id: "6918D86B047D7439"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "5862239E5C43ED42"
+			tasks: [{
+				id: "3254421865965730"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			id: "29CD4C98F2BBA4DC"
+			tasks: [{
+				id: "3321C15EF5075153"
+				item: "jamd:portal_block"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			id: "0974CD3E3688C309"
+			tasks: [{
+				id: "31A21FFA4A968103"
+				item: "jamd:nether_portal"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			id: "25D793C149FD11B5"
+			tasks: [{
+				id: "2A430F52518D48CF"
+				item: "jamd:end_portal"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			id: "33188833DF135D63"
+			tasks: [{
+				id: "22B0030DADBDD464"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70BD6E2233F50F3E"]
+			id: "46B041E1EC401858"
+			tasks: [{
+				id: "1CE1E30EC79FCA88"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"46B041E1EC401858"
+				"23866A8F0560FCE3"
+			]
+			id: "03B88F994148A009"
+			tasks: [{
+				id: "7653C0F6E21FCD4F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70BD6E2233F50F3E"]
+			id: "23866A8F0560FCE3"
+			tasks: [{
+				id: "2AB7BE659F70B577"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03B88F994148A009"]
+			id: "06C3B704208769B9"
+			tasks: [{
+				id: "588D51900F7169E6"
+				item: {
+					Count: 1
+					id: "mekanismtools:iron_paxel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03E105DB4E62B250"]
+			id: "787059C3071F9B7E"
+			tasks: [{
+				id: "5FCC06FF5578851B"
+				item: "extendedcrafting:handheld_table"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["70BD6E2233F50F3E"]
+			id: "6CDF5407E4F8A528"
+			shape: "diamond"
+			tasks: [{
+				id: "2763737E94C79899"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["523E20C03376EEF1"]
+			id: "18454FB9CF8D8C5E"
+			shape: "hexagon"
+			tasks: [{
+				id: "21A96FDB57D73AFE"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			id: "5E2143390D47816D"
+			shape: "rsquare"
+			tasks: [{
+				id: "7AB5D551A241C2AC"
+				item: {
+					Count: 1
+					id: "silentgear:pickaxe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+						SGear_UUID: [I;
+							-1051240845
+							-1332591952
+							-1385204475
+							-719058816
+						]
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6CDF5407E4F8A528"]
+			id: "7262BFAA5E5A2825"
+			tasks: [
+				{
+					count: 10L
+					id: "2A45F43E1874C418"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "32BDEFD9D4E2D00B"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CDF5407E4F8A528"]
+			id: "7D8857FBDD8C6547"
+			tasks: [{
+				id: "294DD2072148105C"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"38D6F320A9D3B679"
+				"5A85F974A0D3464F"
+			]
+			id: "5C729279A00E61A6"
+			shape: "octagon"
+			tasks: [{
+				id: "0B3ED72F0AF778DE"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7262BFAA5E5A2825"]
+			id: "5A85F974A0D3464F"
+			tasks: [{
+				id: "0C20A660EFE72319"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CDF5407E4F8A528"]
+			id: "40853FBD085EC1DE"
+			tasks: [{
+				count: 8L
+				id: "3C93F5D82B9CE7C6"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CDF5407E4F8A528"]
+			id: "38D6F320A9D3B679"
+			tasks: [{
+				id: "31100C295D7974FD"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
 		}
 	]
+	title: "The Basic"
 }

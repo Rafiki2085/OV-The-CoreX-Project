@@ -8,7 +8,7 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 4
+		"Max Level" = 7
 
 	[Enchantments.Displacement]
 		#If TRUE, the Displacement Enchantment is available for Armor, Shields, and Horse Armor.
@@ -160,7 +160,7 @@
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 4
+		"Max Level" = 6
 
 	[Enchantments."Magic Edge"]
 		#If TRUE, the Magic Edge Enchantment is available for various Weapons.
@@ -169,7 +169,7 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 6
 
 	[Enchantments.Vorpal]
 		#If TRUE, the Vorpal Enchantment is available for various Weapons.
@@ -178,7 +178,7 @@
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 7
 		#Adjust this value to set the base critical hit chance of the Enchantment (in percentage).
 		#Range: 0 ~ 100
 		"Base Critical Chance" = 5

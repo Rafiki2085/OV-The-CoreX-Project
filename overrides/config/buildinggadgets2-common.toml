@@ -3,7 +3,7 @@
 [general]
 	#Maximum distance you can build at
 	#Range: 1 ~ 64
-	rayTraceRange = 32
+	rayTraceRange = 64
 
 #Power settings
 [power]

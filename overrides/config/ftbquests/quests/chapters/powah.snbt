@@ -7,6 +7,15 @@
 	id: "65C5A69575FF55DD"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "42434A593C48B6C7"
+		tasks: [{
+			id: "57ACD34FFAEA4BE4"
+			item: "powah:book"
+			type: "item"
+		}]
+		x: -2.0d
+		y: -1.0d
+	}]
 	title: "Powah"
 }

@@ -7,6 +7,179 @@
 	id: "1E8C1942314B983E"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["753794F369F80979"]
+			id: "030358B4CC11C375"
+			tasks: [{
+				id: "7411187A8D7A5D7C"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["030358B4CC11C375"]
+			id: "1A1288B0210E92D9"
+			tasks: [{
+				id: "787165E073EAC2DE"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "2936D5D338BA8FC5"
+			tasks: [{
+				id: "46D71E37BF2B2C78"
+				item: "avaritia:iron_singularity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "083FDC1ACEB30A92"
+			tasks: [{
+				id: "6A0FBDC13E3DE779"
+				item: "avaritia:golden_singularity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "2629EC8D671A2018"
+			tasks: [{
+				id: "3B9453095C48F0E8"
+				item: "avaritia:lapis_singularity"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "61AC7B3CDFE0BDB3"
+			tasks: [{
+				id: "2214F0C3AD595FD6"
+				item: "avaritia:redstone_singularity"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "74AD5285574A494B"
+			tasks: [{
+				id: "059F7765293BEC69"
+				item: "avaritia:nether_quartz_singularity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "26C2608742BAFC2B"
+			tasks: [{
+				id: "4A1CABAE5D7884DE"
+				item: "avaritia:diamond_singularity"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "6EED3A18DFF190E8"
+			tasks: [{
+				id: "75905D766BFC5130"
+				item: "avaritia:emerald_singularity"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "57EFB1D64C83BC8E"
+			tasks: [{
+				id: "3D0069E67431C747"
+				item: "avaritia:amethyst_singularity"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0263631AAE276A6D"]
+			id: "561A886F037C14DD"
+			tasks: [{
+				id: "3661780CEBDFFFB9"
+				item: "avaritia:netherite_singularity"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4481BA7F6EBAB315"]
+			id: "0263631AAE276A6D"
+			tasks: [{
+				id: "43A82ACC0ECD326A"
+				item: "avaritia:copper_singularity"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A1288B0210E92D9"]
+			id: "4481BA7F6EBAB315"
+			tasks: [{
+				id: "204B21ABC8B16CFC"
+				item: "avaritia:neutronium_compressor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "753794F369F80979"
+			tasks: [
+				{
+					count: 8L
+					id: "33EC55C25C077DDB"
+					item: { Count: 8, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+				{
+					id: "0979C576F467DAFA"
+					item: "avaritia:double_compressed_crafting_table"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A1288B0210E92D9"]
+			id: "714D610DAC230E1B"
+			tasks: [{
+				id: "0D687B2FDA032B93"
+				item: "avaritia:neutronium_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+	]
 	title: "Avaritia"
 }

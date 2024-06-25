@@ -3,7 +3,7 @@
 	#The explosion resistance of explosion resistant blocks.
 	explosionResistance = 1200.0
 	#The speed boost granted by the Dark Steel ladder.
-	darkSteelLadderBoost = 0.20
+	darkSteelLadderBoost = 0.2
 
 	[blocks.brokenSpawner]
 		#The chance of a spawner dropping a broken spawner.

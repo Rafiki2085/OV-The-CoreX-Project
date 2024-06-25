@@ -3895,7 +3895,7 @@
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 32,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
@@ -3934,7 +3934,7 @@
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 32,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
@@ -3973,7 +3973,7 @@
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 32,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
@@ -4051,7 +4051,7 @@
       ]
     },
     {
-      "ore_size": 33,
+      "ore_size": 10,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
@@ -4090,7 +4090,7 @@
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 32,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
@@ -4129,7 +4129,7 @@
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 32,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
@@ -4168,7 +4168,7 @@
       ]
     },
     {
-      "ore_size": 64,
+      "ore_size": 32,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {

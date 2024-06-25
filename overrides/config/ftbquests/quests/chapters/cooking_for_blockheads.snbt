@@ -7,6 +7,15 @@
 	id: "4EBBD93A1C4F0A26"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4F606D972CF87FBE"
+		tasks: [{
+			id: "1D979BE3D669791D"
+			item: "farmingforblockheads:market"
+			type: "item"
+		}]
+		x: -5.5d
+		y: -1.0d
+	}]
 	title: "Cooking for Blockheads"
 }

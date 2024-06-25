@@ -1,3 +1,123 @@
+**Version: 0.1.0**
+
+**Config**
+
+Sparse Structures
+
+ - "spreadFactor": 2 -> 2.5
+
+Mahou Tsukai
+ - Drain life
+   - DRAIN_LIFE_BARRIER_MANA_COST = 5 -> 12
+   - DRAIN_LIFE_BARRIER_RADIUS = 10 -> 5
+   - DRAIN_LIFE_DAMAGE = 2.0 -> 5.0
+ - Power Consolidation
+   - POWER_CONSOLIDATION_SWORD_MANA_COST = 5000 -> 10000
+ - Clarent
+   - CLARENT_UNBREAKABLE = true -> false
+   - CLARENT_ATTACK_CAP = 5000000 -> 300
+ - Replica
+   - REPLICA_BASE_DAMAGE = 4.0 -> 10.0
+   - REPLICA_TELEPORT_MANA_COST = 300 -> 800
+   - REPLICA_ATTACK_MANA_COST = 30 -> 1000
+   - REPLICA_SHOCKWAVE_COOLDOWN = 50 -> 120
+   - REPLICA_MAX_DAMAGE = 5000000.0 -> 200.0
+ - Reality marble
+   - MARBLE_MANA_COST = 4000 -> 500000 (effectively disables it)
+ - Damage exchange
+   - DAMAGE_EXCHANGE_MANA_COST = 40 -> 1000
+   - DAMAGE_EXCHANGE_REDUCE_TO = 1.0 -> 0.0
+   - DAMAGE_EXCHANGE_CAP = 5 -> 500
+
+In Control
+ - Initial mob limits
+
+Just another mining dimension
+ - Mining
+   - Clay
+     - "ore_size": 33 -> 10
+   - Granite
+     - "ore_size": 64 -> 32
+   - Andesite
+     - "ore_size": 64 -> 32
+   - Diorite
+     - "ore_size": 64 -> 32
+
+Building gadgets 2
+ - rayTraceRange = 32 -> 64
+
+Ensorcellation
+ - Magic protection
+   - "Max Level" = 4 -> 7
+ - Leech
+   - "Max Level" = 4 -> 6
+ - Magic edge
+   - "Max Level" = 3 -> 6
+ - Vorpal
+   - "Max Level" = 3 -> 7
+
+Apotheosis
+ - Protection
+   - I:"Max Level"=2 -> 8
+ - Fire protection
+   - I:"Max Level"=9 -> 6
+ - Feather falling
+   - I:"Max Level"=11 -> 8
+ - Blast protection
+   - I:"Max Level"=9 -> 6
+ - Projectile protection
+   - I:"Max Level"=11 -> 6
+ - Frost walker
+   - I:"Max Level"=7 -> 2
+ - Sharpness
+   - I:"Max Level"=9 -> 12
+ - Looting
+   - I:"Max Level"=8 -> 6
+ - Efficiency
+   - I:"Max Level"=9 -> 8
+ - Fortune
+   - I:"Max Level"=8 -> 6
+ - Berserkers fury
+   - I:"Max Level"=3 -> 10
+ - Knowledge
+   - I:"Max Level"=3 -> 5
+ - Life mending
+   - I:"Max Level"=3 -> 7
+ - Mana regen
+   - I:"Max Level"=7 -> 9
+ - Mana boost
+   - I:"Max Level"=7 -> 9
+ - Life stealing
+   - I:"Max Level"=6 -> 8
+ - Magic protection
+   - I:"Max Level"=9 -> 10
+
+FTB Quests
+
+**Update**
+
+Update Balm
+
+Update Cyclops core
+
+Update Evilcraft
+
+Update Integrated Dynamics
+
+Update Integrated Terminals
+
+Update JAOPCA
+
+Update The Twilight Forest
+
+**Add**
+
+Added custom emoji datapack
+
+Add easy villagers
+
+---------------------------------------------------------
+
 **Version: 0.0.9**
 
 **Config**

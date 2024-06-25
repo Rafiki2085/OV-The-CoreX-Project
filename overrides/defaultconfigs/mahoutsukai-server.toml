@@ -34,13 +34,13 @@
 	[boundary."drain life"]
 		#This is the mana cost per cycle
 		#Range: 0 ~ 100000000
-		DRAIN_LIFE_BARRIER_MANA_COST = 5
+		DRAIN_LIFE_BARRIER_MANA_COST = 12
 		#This is how often the boundary drains mana
 		#Range: 0 ~ 100000000
 		DRAIN_LIFE_BARRIER_MANA_CYCLE = 1
 		#This is the range of the boundary
 		#Range: 0 ~ 100000000
-		DRAIN_LIFE_BARRIER_RADIUS = 10
+		DRAIN_LIFE_BARRIER_RADIUS = 5
 		#This is how often the boundary does it's thing
 		#Range: 0 ~ 100000000
 		DRAIN_LIFE_BARRIER_CYCLE = 20
@@ -54,7 +54,7 @@
 		DRAIN_LIFE_HEAL_FACTOR = 0.5
 		#This is how much damage the boundary does
 		#Range: 0.0 ~ 1.0E7
-		DRAIN_LIFE_DAMAGE = 2.0
+		DRAIN_LIFE_DAMAGE = 5.0
 		#The boundary does this much times its normal damage if the target has magic resistance
 		#Range: 0.0 ~ 1.0E7
 		DRAIN_LIFE_PUNISH_RESIST = 1.8
@@ -278,7 +278,7 @@
 	[projection."reality marble"]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		MARBLE_MANA_COST = 4000
+		MARBLE_MANA_COST = 500000
 		#If you have dimension conflicts, change this to something else
 		#Range: -1000000 ~ 100000000
 		MARBLE_DIMENSION = -1
@@ -327,7 +327,7 @@
 	[projection."power consolidation"]
 		#This is the cost per sword transformation.
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_SWORD_MANA_COST = 5000
+		POWER_CONSOLIDATION_SWORD_MANA_COST = 10000
 		#This is the cost per cycle for creating the lake.
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_LAKE_MANA_COST = 30
@@ -425,7 +425,7 @@
 		CLARENT_SWORD_BLACKLIST = ["mahoutsukai:caliburn", "mahoutsukai:morgan"]
 		#Max stored damage for Clarent
 		#Range: 0 ~ 100000000
-		CLARENT_ATTACK_CAP = 5000000
+		CLARENT_ATTACK_CAP = 300
 		#Nerf factor for damage stored by Clarent
 		#Range: 0.0 ~ 1.0E8
 		CLARENT_STORED_FACTOR = 0.5
@@ -490,7 +490,7 @@
 	[projection.replica]
 		#Replica Shockwave Base Damage
 		#Range: 0.0 ~ 1.0E7
-		REPLICA_BASE_DAMAGE = 4.0
+		REPLICA_BASE_DAMAGE = 10.0
 		#Replica Friend Teleport Range
 		#Range: 0.0 ~ 1.0E7
 		REPLICA_TELEPORT_FRIEND_RANGE = 6.0
@@ -508,13 +508,13 @@
 		REPLICA_TELEPORT_LIFE = 140
 		#Replica Teleport Mana Cost
 		#Range: 0 ~ 10000000
-		REPLICA_TELEPORT_MANA_COST = 300
+		REPLICA_TELEPORT_MANA_COST = 800
 		#Replica Shockwave Mana Cost
 		#Range: 0 ~ 10000000
-		REPLICA_ATTACK_MANA_COST = 30
+		REPLICA_ATTACK_MANA_COST = 1000
 		#Replica Shockwave Cooldown
 		#Range: 0 ~ 1000000
-		REPLICA_SHOCKWAVE_COOLDOWN = 50
+		REPLICA_SHOCKWAVE_COOLDOWN = 120
 		#Replica Shockwave Range
 		#Range: 0.0 ~ 1.0E7
 		REPLICA_ATTACK_RANGE = 8.0
@@ -525,7 +525,7 @@
 		REPLICA_COVER_MOVE_RANGE = 20.0
 		#Replica Shockwave Max Damage
 		#Range: 0.0 ~ 1.0E7
-		REPLICA_MAX_DAMAGE = 5000000.0
+		REPLICA_MAX_DAMAGE = 200.0
 		#Replica is disabled
 		REPLICA_DISABLED = false
 		#Replica Banned Damage Types
@@ -605,16 +605,16 @@
 	[exchange.damage]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
-		DAMAGE_EXCHANGE_MANA_COST = 40
+		DAMAGE_EXCHANGE_MANA_COST = 1000
 		#This is the how much mana you get back when you're injured
 		#Range: 0 ~ 100000000
 		DAMAGE_EXCHANGE_MANA_GAIN = 20
 		#This is the new value of damage done while damage exchange is active
 		#Range: 0.0 ~ 1.0E8
-		DAMAGE_EXCHANGE_REDUCE_TO = 1.0
+		DAMAGE_EXCHANGE_REDUCE_TO = 0.0
 		#Damage Exchange Cap
 		#Range: 0 ~ 1000000000
-		DAMAGE_EXCHANGE_CAP = 5
+		DAMAGE_EXCHANGE_CAP = 500
 
 	[exchange.contract]
 		#This is the cost of forming a contract with another player

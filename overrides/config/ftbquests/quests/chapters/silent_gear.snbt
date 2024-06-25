@@ -7,6 +7,16 @@
 	id: "686226AA6E13620D"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "51D87365AE77E4D3"
+		shape: "gear"
+		tasks: [{
+			id: "679582EC6DDB8363"
+			item: "silentgear:guide_book"
+			type: "item"
+		}]
+		x: -3.0d
+		y: -1.0d
+	}]
 	title: "Silent Gear"
 }

@@ -18,6 +18,23 @@
 	id: "77AEACF5FAFC2EDB"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "21DB91C5DC42714D"
+		tasks: [{
+			id: "0E99454840AAB5B6"
+			item: {
+				Count: 1
+				id: "thermal:wrench"
+				tag: {
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			type: "item"
+		}]
+		x: -8.0d
+		y: -2.0d
+	}]
 	title: "Thermal Expansion"
 }

@@ -1,1 +1,136 @@
-[]
+[
+    {
+      "dimension": "minecraft:overworld",
+      "passive": true,
+      "when": "onjoin",
+      "mincount": {
+        "amount": 35,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+
+    {
+      "dimension": "minecraft:overworld",
+      "hostile": true,
+      "when": "onjoin",
+      "mincount": {
+        "amount": 35,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+    {
+        "dimension": "minecraft:the_nether",
+        "passive": true,
+        "when": "onjoin",
+        "mincount": {
+          "amount": 35,
+          "perplayer": true
+        },
+        "result": "deny"
+      },
+
+      {
+        "dimension": "minecraft:the_nether",
+        "hostile": true,
+        "when": "onjoin",
+        "mincount": {
+          "amount": 35,
+          "perplayer": true
+        },
+        "result": "deny"
+      },
+    {
+      "dimension": "minecraft:the_end",
+      "passive": true,
+      "when": "onjoin",
+      "mincount": {
+        "amount": 35,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+
+    {
+      "dimension": "minecraft:the_end",
+      "hostile": true,
+      "when": "onjoin",
+      "mincount": {
+        "amount": 35,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+
+
+    {
+      "dimension": "minecraft:overworld",
+      "mob": ["minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:rabbit", "minecraft:cow"],
+      "when": "onjoin",
+      "mincount": {
+        "amount": 12,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob": ["minecraft:squid"],
+      "when": "onjoin",
+      "mincount": {
+        "amount": 1,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+    {
+      "mob": ["minecraft:bat"],
+      "when": "onjoin",
+      "mincount": {
+        "amount": 1,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+
+
+    {
+      "mob": "quark:shiba",
+      "when": "onjoin",
+      "mincount": {
+        "amount": 1,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+
+    {
+        "mob": ["mna:mushroom_solider", "mna:witch_hunter", "mna:barkling", "mna:hulking_zombie", "mna:pixie", "mna:skeleton_assassin", "mna:spell_breaker"],
+        "when": "onjoin",
+        "mincount": {
+          "amount": 12,
+          "perplayer": true
+        },
+        "result": "deny"
+      },
+
+      {
+        "mob": "artifacts:mimic",
+        "when": "onjoin",
+        "mincount": {
+          "amount": 1,
+          "perplayer": true
+        },
+        "result": "deny"
+      },
+      {
+        "mob": "evilcraft:vengeance_spirit",
+        "when": "onjoin",
+        "mincount": {
+          "amount": 2,
+          "perplayer": true
+        },
+        "result": "deny"
+      }
+
+  ]

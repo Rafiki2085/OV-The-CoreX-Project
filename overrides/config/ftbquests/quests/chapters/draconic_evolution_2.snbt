@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "draconic_evolution_2"
 	group: "4A2EB62E17E0DF8E"
-	icon: "draconicevolution:awakened_draconium_block"
+	icon: "draconicevolution:mob_soul"
 	id: "44A6D894AB0761A2"
 	order_index: 0
 	quest_links: [ ]

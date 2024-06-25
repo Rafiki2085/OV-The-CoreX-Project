@@ -20,6 +20,21 @@
 	id: "2C7C063E8BDF028B"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "3D7B60C49E005CDA"
+		tasks: [{
+			id: "492B8BEB88F66EC0"
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+			type: "item"
+		}]
+		x: -4.5d
+		y: -1.0d
+	}]
 	title: "Industrial Foregoing"
 }
