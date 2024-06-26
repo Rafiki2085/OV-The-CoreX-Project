@@ -1,3 +1,71 @@
+**Version: 0.2.0**
+
+**Config**
+
+Hide quark menu message
+
+KubeJS
+ - Hide ae2 facades but still allow to be crafted
+ - Hide twilight forest uncrafter and disable uncrafting
+ - Hide and get rid of cyclic uncrafter, sleeping mat, and crafter
+ - Remove create draining, automatic shapeless, automatic shaped, automatic packaging, automatic packing categories
+ - Prevent mob grinding utils from spawning forbidden arcanus lost souls
+ - Replace draconic evolution draconium core recipe
+ - Replace draconic evolution wyvern core recipe
+ - Replace draconic evolution draconium core recipe
+ - Replace avaritia diamond lattice recipe
+ - Replace avaritia crystal matrix recipe
+ - Replace extreme crafting table recipe
+
+FTB Quests
+ - Avaritia line progress
+ - Draconic evolution line progress
+
+Create
+ - hosePulleyBlockThreshold = 10000 -> 125
+
+**Update**
+
+Update create crafts & additions
+
+Update cupboard
+
+Update extreme reactors
+
+Update moonlight lib
+
+Update EnderIO
+
+**Add**
+
+Add create new age
+
+Add compressed blocks
+
+Add botany pots
+
+Add botany trees
+
+Add botany pots tiers
+
+Add resource chickens
+
+**Remove**
+
+Remove create teleporters - redundant/waystones/5+ other ways to teleport
+
+Remove create goggles - engineer's goggles in base create
+
+Remove create jetpack - redundant/iron's jetpacks and other create jetpacks
+
+Remove create utilities - breaks intent of create
+
+Remove charging gadgets - only adds 1 block and it is currently pointless
+
+Remove aquatic torches - can just use glowstone or lamps or other torches that work underwater
+
+---------------------------------------------------------
+
 **Version: 0.1.0**
 
 **Config**

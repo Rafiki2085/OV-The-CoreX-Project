@@ -109,7 +109,7 @@
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -13.0d
 			y: 1.0d
 		}
 		{
@@ -119,7 +119,7 @@
 				item: "jamd:portal_block"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -12.0d
 			y: 2.0d
 		}
 		{
@@ -129,7 +129,7 @@
 				item: "jamd:nether_portal"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -14.0d
 			y: 2.0d
 		}
 		{
@@ -139,7 +139,7 @@
 				item: "jamd:end_portal"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -13.0d
 			y: 3.0d
 		}
 		{
@@ -149,7 +149,7 @@
 				item: "waystones:waystone"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -13.0d
 			y: 2.0d
 		}
 		{
@@ -405,5 +405,5 @@
 			y: 2.0d
 		}
 	]
-	title: "The Basic"
+	title: "The Basics"
 }

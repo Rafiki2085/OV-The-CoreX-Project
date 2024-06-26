@@ -3,10 +3,366 @@
 	default_quest_shape: ""
 	filename: "draconic_evolution_2"
 	group: "4A2EB62E17E0DF8E"
-	icon: "draconicevolution:mob_soul"
+	icon: "draconicevolution:chaotic_core"
 	id: "44A6D894AB0761A2"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"69EDE4B6111BF323"
+				"464BF759EF590D6B"
+			]
+			id: "5B076E404C059E36"
+			subtitle: "Unlocks the end game"
+			tasks: [{
+				id: "18C15C0469836F82"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			title: "Chaotic core"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "01CA81F381A555D9"
+			subtitle: "You really should have started wither start automation by now"
+			tasks: [{
+				id: "3CD3FE1923D9D7BB"
+				title: "Wither star automation"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01CA81F381A555D9"]
+			id: "7D944B497088D223"
+			tasks: [{
+				id: "74E96D33236E722D"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D944B497088D223"]
+			id: "31E11CC254BB51BF"
+			tasks: [{
+				id: "6E0B5C0DF1A6FCBE"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D944B497088D223"]
+			id: "209D91F809930F94"
+			tasks: [{
+				id: "6712D5E34B925EED"
+				item: {
+					Count: 1
+					id: "draconicevolution:dislocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31E11CC254BB51BF"]
+			id: "161C5B9F8ADC67CA"
+			tasks: [{
+				id: "2826A3AF8B6149C8"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["161C5B9F8ADC67CA"]
+			id: "4C9F63B84C6E2ACB"
+			tasks: [{
+				id: "1196C2A5714BCE73"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["161C5B9F8ADC67CA"]
+			id: "725AE8197929FD98"
+			tasks: [{
+				count: 12L
+				id: "2E747EE4BC3785B1"
+				item: { Count: 12, id: "draconicevolution:basic_crafting_injector" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["161C5B9F8ADC67CA"]
+			id: "074047BF768AFFBA"
+			tasks: [{
+				id: "65837FD3A25168AF"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"725AE8197929FD98"
+				"4C9F63B84C6E2ACB"
+			]
+			id: "1DD1595FDCBBEEE1"
+			tasks: [{
+				count: 12L
+				id: "4DB3054D68AABF83"
+				item: { Count: 12, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DD1595FDCBBEEE1"]
+			id: "61244DE77196E430"
+			subtitle: "Now it's time to kill the Ender Dragon a few more times"
+			tasks: [{
+				id: "4EE9BD05208A17AF"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61244DE77196E430"]
+			id: "10D3D8D0ED965E41"
+			tasks: [{
+				count: 8L
+				id: "7266DB1FCB56A8CA"
+				item: { Count: 8, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"10D3D8D0ED965E41"
+				"4C9F63B84C6E2ACB"
+			]
+			id: "464BF759EF590D6B"
+			tasks: [{
+				id: "047403028A14DEFB"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10D3D8D0ED965E41"]
+			id: "69EDE4B6111BF323"
+			tasks: [{
+				count: 12L
+				id: "4D3BF2CFE829631B"
+				item: { Count: 12, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69EDE4B6111BF323"]
+			id: "01EA2E6F0A2B89F6"
+			tasks: [{
+				count: 12L
+				id: "3494C183D2334AA3"
+				item: { Count: 12, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3830E8D36D376740"
+			tasks: [{
+				id: "7588FF06CCEB75A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									807632578
+									-1700183251
+									-1078832568
+									-937299176
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3830E8D36D376740"]
+			hide: true
+			id: "2C3DD21523B1459D"
+			tasks: [{
+				id: "6C00DE6D914D3C69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									254230247
+									-991474689
+									-2011045671
+									2012478784
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C3DD21523B1459D"]
+			id: "4C4D71135455CEEB"
+			tasks: [{
+				id: "79FD51572AF96C90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-230973064
+									-1192080094
+									-1146017305
+									-1976218036
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2297BEEC24C6A16A"
+			tasks: [{
+				id: "201F8662857D57AE"
+				item: "draconicevolution:wyvern_energy_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2297BEEC24C6A16A"]
+			hide: true
+			id: "3EA28EA2BF8FDB0D"
+			tasks: [{
+				id: "7AD2DB11231EDD2D"
+				item: "draconicevolution:draconic_energy_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EA28EA2BF8FDB0D"]
+			id: "291F9ECF6FB69DA1"
+			tasks: [{
+				id: "71847509A3BA9D58"
+				item: "draconicevolution:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"209D91F809930F94"
+				"4C9F63B84C6E2ACB"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "49289C07DF5092D7"
+			tasks: [{
+				id: "5D8C9CF93E18A11F"
+				item: {
+					Count: 1
+					id: "draconicevolution:advanced_dislocator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
 	title: "Draconic Evolution"
 }
