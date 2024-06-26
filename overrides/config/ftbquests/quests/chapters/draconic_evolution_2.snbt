@@ -5,6 +5,14 @@
 	group: "4A2EB62E17E0DF8E"
 	icon: "draconicevolution:chaotic_core"
 	id: "44A6D894AB0761A2"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/draconic_evolution/draconic_evolution_logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -4.0d
+		y: -2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -360,8 +368,803 @@
 				}
 				type: "item"
 			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3760B1E7587D65E3"]
+			id: "2ABD9979CA0649D5"
+			tasks: [{
+				id: "1466FD4769FEA25F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1512727008
+									1673940109
+									-1561823033
+									1041206880
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_sword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DAAD0F79903C231"]
+			id: "0A2BDCE7B308AAE8"
+			tasks: [{
+				id: "2196752634C573D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									2057469023
+									-374846926
+									-1814682978
+									1049989851
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_pickaxe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["384BC6FC48E2F0FE"]
+			id: "602D4CCE54B1F4E4"
+			tasks: [{
+				id: "2817D6568D755EEB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-324952094
+									-874230903
+									-1223556324
+									-1448989026
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_axe"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4BEEF77200618D5A"]
+			id: "0B890AAE4C49355D"
+			tasks: [{
+				id: "090540C72695A5F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-2048278900
+									416301937
+									-2003975766
+									-1359169509
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_hoe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C3DF1998BBE61E2"]
+			id: "5C9CED2986DCA87C"
+			tasks: [{
+				id: "410CC9352ECF3B64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									875980484
+									-380419897
+									-1162641495
+									-1902948808
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_bow"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2F42093DCD7AA746"
+			tasks: [{
+				id: "0C806D2743FB5C07"
+				item: "draconicevolution:wyvern_energy_core"
+				type: "item"
+			}]
 			x: 4.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["2F42093DCD7AA746"]
+			hide: true
+			id: "168CA6425D634D9A"
+			tasks: [{
+				id: "7672AFDCCD1E5754"
+				item: "draconicevolution:draconic_energy_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["168CA6425D634D9A"]
+			id: "192513CEBCB40D07"
+			tasks: [{
+				id: "0B852E29C37C3567"
+				item: "draconicevolution:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B076E404C059E36"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6F9CE12CC7686F74"
+			tasks: [{
+				id: "76067C974686DB77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-68146576
+									-662289179
+									-1118004740
+									2010421937
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_staff"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3891A70C49452465"]
+			hide: true
+			id: "3760B1E7587D65E3"
+			tasks: [{
+				id: "5933E6ADCA7F2591"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-959592038
+									1926778392
+									-1529008251
+									-2037016863
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_sword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10A95696729EF06B"]
+			hide: true
+			id: "0DAAD0F79903C231"
+			tasks: [{
+				id: "52A44C0B425DB080"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-441118828
+									1747995567
+									-1472793799
+									-188530392
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_pickaxe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4129216C263F7FCC"]
+			hide: true
+			id: "384BC6FC48E2F0FE"
+			tasks: [{
+				id: "0FDDE9ED7FCA84F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1245244481
+									841893892
+									-1933819596
+									-249687553
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_axe"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34DB6E25AA4031C4"]
+			id: "4BEEF77200618D5A"
+			invisible: true
+			tasks: [{
+				id: "16A50EB7AC96FB6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-2030448303
+									1972718297
+									-1906987491
+									-1012968526
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_hoe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50A91A338AF10FD3"]
+			id: "10F4B8980ADA9B62"
+			tasks: [{
+				id: "5C8509678CEC45D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-747508255
+									1884113667
+									-1100396795
+									-1277602804
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_shovel"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F8FC27CE8C8C286"]
+			hide: true
+			id: "50A91A338AF10FD3"
+			tasks: [{
+				id: "205C7B26FBEE4FC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1448683288
+									2022328905
+									-1687254201
+									1172190818
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_shovel"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5800F5025B4D7E04"]
+			hide: true
+			id: "6C3DF1998BBE61E2"
+			tasks: [{
+				id: "7E450598451BCFE9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1164310778
+									-1742123355
+									-2097880932
+									-1034306971
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_bow"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3891A70C49452465"
+			tasks: [{
+				id: "07AF181138866B59"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-680800784
+									-1682488103
+									-1717621092
+									-446076017
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_sword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "10A95696729EF06B"
+			tasks: [{
+				id: "35B1578D95FE650A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-2081590976
+									-1398520381
+									-1783388515
+									594606721
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_pickaxe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4129216C263F7FCC"
+			tasks: [{
+				id: "69562DC21F39E048"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1395591628
+									1757692069
+									-1726195268
+									-1042075285
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_axe"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0F8FC27CE8C8C286"
+			tasks: [{
+				id: "12EFD0BBA7E3551E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1064598184
+									899238904
+									-1213749988
+									-995480941
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_shovel"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "34DB6E25AA4031C4"
+			tasks: [{
+				id: "740B6287EF8C2F14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									-1064598184
+									899238904
+									-1213749988
+									-995480941
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_shovel"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C9F63B84C6E2ACB"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5800F5025B4D7E04"
+			tasks: [{
+				id: "4FD0AC67CA10393C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-949606780
+									745489712
+									-1744830576
+									733640633
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_bow"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
 		}
 	]
 	title: "Draconic Evolution"

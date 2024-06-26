@@ -4,6 +4,14 @@
 	filename: "botania"
 	group: "3DF4678EFCABAF02"
 	id: "37DD5E7F60536B42"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/botania/botania_logo.png"
+		rotation: 0.0d
+		width: 5.2d
+		x: -1.5d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]

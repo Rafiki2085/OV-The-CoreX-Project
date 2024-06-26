@@ -5,6 +5,14 @@
 	group: "0ECEB409FDFA010F"
 	icon: "avaritia:infinity_catalyst"
 	id: "1E8C1942314B983E"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/avaritia/avaritia_logo_datadal.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -7.5d
+		y: -6.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -41,7 +49,7 @@
 				item: "avaritia:iron_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -52,7 +60,7 @@
 				item: "avaritia:golden_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -63,7 +71,7 @@
 				item: "avaritia:lapis_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -74,7 +82,7 @@
 				item: "avaritia:redstone_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -85,7 +93,7 @@
 				item: "avaritia:nether_quartz_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -5.5d
 		}
 		{
@@ -96,7 +104,7 @@
 				item: "avaritia:diamond_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -107,7 +115,7 @@
 				item: "avaritia:emerald_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -4.5d
 		}
 		{
@@ -118,7 +126,7 @@
 				item: "avaritia:amethyst_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -129,7 +137,7 @@
 				item: "avaritia:netherite_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -140,7 +148,7 @@
 				item: "avaritia:copper_singularity"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -151,7 +159,7 @@
 				item: "avaritia:neutronium_compressor"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -301,7 +309,7 @@
 				item: "avaritia:infinity_catalyst"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -312,7 +320,7 @@
 				item: "avaritia:infinity_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -345,8 +353,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -367,8 +375,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -389,8 +397,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -411,8 +419,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -433,8 +441,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -478,8 +486,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -500,8 +508,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -519,8 +527,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -541,8 +549,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["617D10E6348F89A7"]
@@ -563,8 +571,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 3.0d
+			y: -3.5d
 		}
 	]
 	title: "Avaritia"
