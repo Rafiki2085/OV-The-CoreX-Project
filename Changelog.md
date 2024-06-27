@@ -3,7 +3,8 @@
 **Config**
 
 FTBQuests
- - Additional Create Quests with some added Texts and Descriptions
+ - Additional Create Quests
+   - Worked on titles and descriptions
 
 ---------------------------------------------------------
 **Version: 0.3.1**
