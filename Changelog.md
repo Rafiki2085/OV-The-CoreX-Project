@@ -2,7 +2,18 @@
 
 **Config**
 
+FTBQuests
+ - Create quest outline
+
+---------------------------------------------------------
+
+**Version: 0.3.0**
+
+**Config**
+
 Ftb quests progress
+ - Images for Avaritia and Draconic Evolution
+ - Created images and retrieved and edited image logos for all current quest lines - Not yet implemented
 
 ---------------------------------------------------------
 
