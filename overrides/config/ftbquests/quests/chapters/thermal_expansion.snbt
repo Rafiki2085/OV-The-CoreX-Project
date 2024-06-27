@@ -16,7 +16,15 @@
 		}
 	}
 	id: "77AEACF5FAFC2EDB"
-	order_index: 2
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/thermal_expansion/thermal_expansion_logo.png"
+		rotation: 0.0d
+		width: 5.44d
+		x: -8.0d
+		y: -5.5d
+	}]
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		id: "21DB91C5DC42714D"

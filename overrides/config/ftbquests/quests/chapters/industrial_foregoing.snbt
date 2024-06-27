@@ -18,7 +18,15 @@
 		}
 	}
 	id: "2C7C063E8BDF028B"
-	order_index: 3
+	images: [{
+		height: 1.0d
+		image: "kubejs:textures/ftbquests/industrial_foregoing/industrial_foregoing_logo.png"
+		rotation: 0.0d
+		width: 12.936708860759493d
+		x: -4.5d
+		y: -3.5d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [{
 		id: "3D7B60C49E005CDA"

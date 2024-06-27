@@ -5,6 +5,14 @@
 	group: "000736A5A8CD3B13"
 	icon: "cookingforblockheads:oven"
 	id: "4EBBD93A1C4F0A26"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/cooking_for_blockheads/cooking_for_blockheads_logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -5.5d
+		y: -4.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [{

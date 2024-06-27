@@ -1,0 +1,10 @@
+{
+  "enable_theme_only_in_create_chapters": false,
+  "create_chapter_names": [],
+  "blueprint_background_scale": 0.30,
+  "blueprint_background_opacity": 0.95,
+  "blueprint_background_overlay_red": 87,
+  "blueprint_background_overlay_green": 87,
+  "blueprint_background_overlay_blue": 87,
+  "debug_colorModifier": 16777215
+}

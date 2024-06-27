@@ -1,8 +1,52 @@
+**Version: 0.3.2**
+
+**Config**
+
+Update singleplayer custom menu
+
+Update changelog menu
+
+Create Questing
+ - "enable_theme_only_in_create_chapters": true -> false
+ - "blueprint_background_scale": 0.30
+ - "blueprint_background_opacity": 0.95
+ - "blueprint_background_overlay_red": 87
+ - "blueprint_background_overlay_green": 87
+ - "blueprint_background_overlay_blue": 87
+
+FTBQuests
+ - Add base logo images to most chapters
+ - Change create to its own group
+
+**Update**
+
+Updated L_Ender's Cataclysm
+
+Updated Moonlight Lib
+
+**Add**
+
+Add Create Questing
+
+---------------------------------------------------------
+
+**Version: 0.3.1**
+
+**Config**
+
+FTBQuests
+ - Create quest outline
+    - Worked on titles and descriptions
+
+---------------------------------------------------------
+
 **Version: 0.3.0**
 
 **Config**
 
 Ftb quests progress
+ - Images for Avaritia and Draconic Evolution
+ - Created images and retrieved and edited image logos for all current quest lines - Not yet implemented
 
 ---------------------------------------------------------
 

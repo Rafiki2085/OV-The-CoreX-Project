@@ -5,6 +5,14 @@
 	group: "000736A5A8CD3B13"
 	icon: "solcarrot:food_book"
 	id: "7C68A971B9478DF7"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/spice_of_life/spice_of_life_logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 3.5d
+		y: -2.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]

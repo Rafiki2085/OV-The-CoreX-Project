@@ -4,6 +4,14 @@
 	filename: "blood_magic"
 	group: "3DF4678EFCABAF02"
 	id: "2F793DDAFCCE4B88"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/blood_magic/bloodmagic_logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -2.0d
+		y: -1.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]

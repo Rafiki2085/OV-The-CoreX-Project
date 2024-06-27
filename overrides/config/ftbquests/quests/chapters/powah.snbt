@@ -5,7 +5,15 @@
 	group: "3A84D759D3560DF5"
 	icon: "powah:book"
 	id: "65C5A69575FF55DD"
-	order_index: 1
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/powah/powah_logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: -2.0d
+		y: -5.5d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		id: "42434A593C48B6C7"

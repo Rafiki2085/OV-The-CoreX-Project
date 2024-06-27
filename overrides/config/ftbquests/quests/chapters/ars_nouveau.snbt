@@ -4,6 +4,14 @@
 	filename: "ars_nouveau"
 	group: "3DF4678EFCABAF02"
 	id: "5EC04830E05DB74F"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/ars_nouveau/ars_nouveau_logo.png"
+		rotation: 0.0d
+		width: 10.7d
+		x: -2.0d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
