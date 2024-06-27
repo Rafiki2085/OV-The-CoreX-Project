@@ -1,4 +1,12 @@
-**Version: 0.3.0**
+**Version: 0.3.2**
+
+**Config**
+
+FTBQuests
+ - Additional Create Quests with some added Texts and Descriptions
+
+---------------------------------------------------------
+**Version: 0.3.1**
 
 **Config**
 

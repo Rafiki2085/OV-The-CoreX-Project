@@ -3,14 +3,26 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "3A84D759D3560DF5"
+	icon: {
+		Count: 1
+		id: "create:wrench"
+		tag: {
+			affix_data: {
+				sockets: 0
+			}
+		}
+	}
 	id: "639EC2B8481307A9"
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["02B72165BE021A49"]
+			description: ["Like &7Iron&r and &7Zinc,&r &8Andesite&r is also an important base resource that is used in Create parts."]
 			id: "13F81D944E338DAE"
 			progression_mode: "flexible"
+			subtitle: "Andesite"
 			tasks: [{
 				count: 2L
 				id: "447567E04FF240A3"
@@ -18,13 +30,15 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["02B72165BE021A49"]
+			description: ["Collect &7Iron&r and &7Zinc&r whenever possible as many Create parts are based on it."]
 			icon: "minecraft:iron_nugget"
 			id: "599246CAEABF9488"
 			progression_mode: "flexible"
+			subtitle: "Zinc or Iron Nuggets"
 			tasks: [{
 				count: 2L
 				id: "6526C4788F654C40"
@@ -48,11 +62,13 @@
 			}]
 			title: "2x Nuggets"
 			x: -9.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["111D3AEFBB9B5A9A"]
+			description: ["Andesite Alloy is the first Create Item to craft and is used in all the other basic parts."]
 			id: "712608472AA935BA"
+			subtitle: "First Create Item"
 			tasks: [{
 				id: "0E7EFAC95EEB4DF1"
 				item: "create:andesite_alloy"
@@ -63,7 +79,9 @@
 		}
 		{
 			dependencies: ["111D3AEFBB9B5A9A"]
+			description: ["&6Andesite casing&r is one of the most used items in the start of create it is used to make a bunch of helpful blocks to make progress"]
 			id: "40CDC9CBD3B2C0EB"
+			subtitle: "Great for Building and Decorating too"
 			tasks: [{
 				id: "42585E5410EB4220"
 				item: "create:andesite_casing"
@@ -76,6 +94,7 @@
 			dependencies: ["3E595C370853BB20"]
 			id: "71F90083FDE95477"
 			optional: true
+			subtitle: "Tiny Power"
 			tasks: [{
 				id: "5BFC541ED65FEAAC"
 				item: "create:hand_crank"
@@ -88,11 +107,19 @@
 			dependencies: ["3E595C370853BB20"]
 			id: "01825F4E048512C9"
 			optional: true
-			tasks: [{
-				id: "4D01BB08BFF57EF5"
-				item: "create:water_wheel"
-				type: "item"
-			}]
+			subtitle: "Small Power"
+			tasks: [
+				{
+					id: "4D01BB08BFF57EF5"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "2DDE7122B703834A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -5.0d
 		}
@@ -111,8 +138,10 @@
 		}
 		{
 			dependencies: ["02B72165BE021A49"]
+			description: ["&eLogs&r, &eStripped Logs&r, and &ePlanks&r all play an important roll in Create parts."]
 			id: "665D12AF4433DF67"
 			progression_mode: "flexible"
+			subtitle: "Punch some Trees"
 			tasks: [{
 				id: "7A29F55A3770834B"
 				item: {
@@ -126,7 +155,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2A928F41A1FDE485"]
@@ -136,7 +165,7 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -148,7 +177,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -160,8 +189,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
@@ -178,7 +207,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -203,7 +232,7 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -214,7 +243,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -4.5d
 		}
 		{
@@ -225,7 +254,7 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -237,7 +266,7 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -250,7 +279,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6031361CAA62279B"]
@@ -260,7 +289,7 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -6.0d
 		}
 		{
@@ -271,7 +300,7 @@
 				item: "create:brass_sheet"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -1.5d
 		}
 		{
@@ -282,7 +311,7 @@
 				item: "create:brass_hand"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -296,18 +325,27 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["09E3673A7EE78DF8"]
 			id: "64A4994E4DA79499"
-			tasks: [{
-				id: "769F808186A3612F"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: 10.5d
+			subtitle: "Shiny"
+			tasks: [
+				{
+					id: "35E8E914EFEB20ED"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "601BFA878D046308"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "Electron Tube"
+			x: 11.5d
 			y: -4.0d
 		}
 		{
@@ -323,6 +361,8 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "Off hand with the sand paper and then right click with the &drose quartz&r"
 			tasks: [
 				{
 					id: "2B1A0BC4D86FA7BA"
@@ -337,7 +377,7 @@
 				}
 			]
 			title: "Rose Quarts"
-			x: 9.0d
+			x: 9.75d
 			y: -4.5d
 		}
 		{
@@ -348,7 +388,7 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -3.5d
 		}
 		{
@@ -367,7 +407,9 @@
 		}
 		{
 			dependencies: ["76D8BA0797AD377B"]
+			description: ["&0Dried&r &2Kelp&r is a possible food source, and is also used for &0Belts&r that will help move items allowing for many types of automations, its good to have a solid supply."]
 			id: "23731C142B34CFA0"
+			subtitle: "This tastes funny...."
 			tasks: [{
 				id: "71B187CF3B646B82"
 				item: "minecraft:dried_kelp"
@@ -378,8 +420,10 @@
 		}
 		{
 			dependencies: ["02B72165BE021A49"]
+			description: ["It would be good to have a stable for larger create builds."]
 			id: "76D8BA0797AD377B"
 			progression_mode: "flexible"
+			subtitle: "Time for a Swim"
 			tasks: [{
 				id: "0159FCF43464F421"
 				item: "minecraft:kelp"
@@ -400,13 +444,21 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"Create has a feature built into it called &6Ponder&r, you can hold &4W&r on any create item and when the bar fills you will get shown how you can use the item in the world."
+				""
+				"Now on to Collecting Vanilla Resources"
+			]
+			icon: "create:clipboard"
 			id: "02B72165BE021A49"
+			size: 1.5d
+			subtitle: "Pondering and Gathering"
 			tasks: [{
 				id: "6FF8BAB47BE830D1"
 				title: "Basic Resources"
 				type: "checkmark"
 			}]
-			title: "Vanilla Resources"
+			title: "Create"
 			x: -10.5d
 			y: -4.5d
 		}
@@ -416,18 +468,27 @@
 				"13F81D944E338DAE"
 				"665D12AF4433DF67"
 			]
+			description: [
+				"Time to get some basic Create parts built.  Having a solid supply of these parts will make building Create processes much easier."
+				""
+				"Check out the Create Tools Quest for how to store Create parts for easier managment, and how to see power usage and production along with easier create block pickup."
+			]
 			id: "111D3AEFBB9B5A9A"
+			subtitle: "Time to Craft (Manually)"
 			tasks: [{
 				id: "30375186B25F643B"
 				title: "Create Basic Parts"
 				type: "checkmark"
 			}]
+			title: "Basic Parts"
 			x: -7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["111D3AEFBB9B5A9A"]
+			description: ["&6Shafts&r are way to transfer a rotation in a straight line either vertical or horizontal"]
 			id: "1468D64C4A7BD390"
+			subtitle: "Power Mover"
 			tasks: [{
 				id: "4263D89BA65042EC"
 				item: "create:shaft"
@@ -438,7 +499,17 @@
 		}
 		{
 			dependencies: ["111D3AEFBB9B5A9A"]
+			description: [
+				"You can place &6small cogwheels&r next to eachother to keep roational force sideways but the rotations will change from cogwheel to cogwheel"
+				""
+				"To speed up cogwheels you can place a &dlarge cogwheel&r adjacent to a &6small cogwheel&r"
+				""
+				"Then place a &dlarge cogwheel&r on the face of a &6small cogwheel&r"
+				""
+				"Then repeat the process as much as you can with the stress units you have available"
+			]
 			id: "1C3E10C2140A2E01"
+			subtitle: "You Spin Me Right Round"
 			tasks: [
 				{
 					id: "0772CCEBCBE73EEB"
@@ -462,11 +533,13 @@
 			]
 			id: "13BB4848809C689B"
 			optional: true
+			subtitle: "2x Power"
 			tasks: [{
 				id: "5B5A0B76C2A4142F"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
+			title: "Large Water Wheel"
 			x: -3.0d
 			y: -4.0d
 		}
@@ -474,6 +547,7 @@
 			dependencies: ["3E595C370853BB20"]
 			id: "7CA9DF1744E2BFC8"
 			optional: true
+			subtitle: "Lots of Power"
 			tasks: [
 				{
 					id: "0A3991E5830B7BF1"
@@ -497,12 +571,16 @@
 				"1C3E10C2140A2E01"
 				"40CDC9CBD3B2C0EB"
 			]
+			dependency_requirement: "one_completed"
+			description: ["Now that you have some basic resources and some basic Create parts, its time to actually get some power (Rotational Force)."]
 			id: "3E595C370853BB20"
+			subtitle: "More Power (or at least SOME!)"
 			tasks: [{
 				id: "5AE8E2232768B65D"
 				title: "Create Basic Power"
 				type: "checkmark"
 			}]
+			title: "Basic Power"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -536,13 +614,15 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["111D3AEFBB9B5A9A"]
+			description: ["A &6gearbox&r is used to change the direction of rotation"]
 			id: "4C60B711437F4911"
 			optional: true
+			subtitle: "Rotation Change"
 			tasks: [{
 				id: "3F26321FC61470DD"
 				item: "create:gearbox"
@@ -566,6 +646,7 @@
 			dependencies: ["02B72165BE021A49"]
 			id: "039B2063CC47C8C5"
 			progression_mode: "flexible"
+			subtitle: "Its actually useful"
 			tasks: [{
 				id: "42D05734D3A0733D"
 				item: "minecraft:copper_ingot"
@@ -674,7 +755,16 @@
 				"467816EB92BBF0CA"
 				"3E595C370853BB20"
 			]
+			description: [
+				"Good power source from beginning all the way to the end."
+				""
+				"Can be upgraded from Passive (Campfires),"
+				"To Active (Blaze Burners with Fuel), and tops out with"
+				"To Super Heated (Blaze Burners with Blaze Cakes)."
+			]
 			id: "6E1E31D9D6D7E62F"
+			optional: true
+			subtitle: "Largest Possible Power Output"
 			tasks: [{
 				id: "2270A5D3BB90D0A0"
 				item: "create:steam_engine"
@@ -705,7 +795,7 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -2.5d
 		}
 		{
@@ -714,24 +804,26 @@
 				"64A4994E4DA79499"
 			]
 			id: "693DDBE73B6E8248"
+			subtitle: "The Smarter Hopper"
 			tasks: [{
 				id: "464EE6B2503BE5F6"
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
 			id: "2AFF9598B36EEF8B"
+			subtitle: "The Cheaper Hopper"
 			tasks: [{
 				id: "65279F39DED2C21B"
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["794CB7F27FF304F1"]
@@ -741,7 +833,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.5d
 			y: -1.5d
 		}
 		{
@@ -752,7 +844,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -1.5d
 		}
 		{
@@ -763,7 +855,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -7.5d
 		}
 		{
@@ -774,7 +866,7 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -785,7 +877,7 @@
 				item: "create:stockpile_switch"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -796,7 +888,7 @@
 				item: "create:sequenced_gearshift"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -5.5d
 		}
 		{
@@ -807,7 +899,7 @@
 				item: "create:content_observer"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -6.0d
 		}
 		{
@@ -818,7 +910,140 @@
 				item: "create:redstone_link"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["61EA75DF83D9E2C6"]
+			description: [
+				"The &6cart assembler&r has the ability to attach any &2glued&r blocks you want to build to a minecartc contraption."
+				""
+				"This can be used to move most blocks (even chests), and some create blocks like Create Drills work while on the contraption allowing things like movable Mining Contraptions."
+			]
+			id: "15D744EBC6CB3956"
+			subtitle: "The Op Item"
+			tasks: [
+				{
+					id: "1F7F63E088B35D7E"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "1572B26B6EE6A2C0"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AFF9598B36EEF8B"]
+			id: "6C47BA2377D3E16C"
+			tasks: [{
+				id: "6F8D86FB63E962C3"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A928F41A1FDE485"]
+			description: [
+				"The &6Wrech&r can instantly pick up most Create blocks."
+				""
+				"The &6Goggles&r allows you to see the Stress Units being consumed or prodused by whatever you are looking at."
+				""
+				"The &6Toolbox&r is a great way to store lots of create parts and access them quickly while building."
+			]
+			id: "7F005362924EDC71"
+			subtitle: "Very helpful Tools"
+			tasks: [
+				{
+					id: "74CC9A8BB4F4D46E"
+					item: {
+						Count: 1
+						id: "create:wrench"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B39DB9CC3C74F21"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "161A09ED690EE0E4"
+					item: "create:brown_toolbox"
+					type: "item"
+				}
+			]
+			title: "Create Tools"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F47FBC27F128937"]
+			id: "4BB5E82AA22F5D46"
+			tasks: [{
+				id: "3B578B082F4F90F7"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BB5E82AA22F5D46"]
+			id: "3EB4510474C33D45"
+			tasks: [{
+				id: "0E0C7E219E33D3B5"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BB5E82AA22F5D46"]
+			id: "7CFF7CBA4A3434C7"
+			tasks: [{
+				id: "1AAE75B648098027"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23731C142B34CFA0"]
+			description: [
+				"An efficient way to transport items"
+				""
+				"You can also use the &6belts&r to tranfer rotation force by connecting them to 2 &6shafts&r at either end of where you want to belt to go along"
+				""
+				"They do go diagonal but only at 45deg angles, you can tell if it will as there will be rainbow particles showing it can be placed"
+			]
+			id: "75305C228464419D"
+			subtitle: "Item Mover"
+			tasks: [{
+				id: "004E81DA07534328"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 1.5d
 			y: -7.5d
 		}
 	]
