@@ -1,18 +1,10 @@
-**Version: 0.3.2**
-
-**Config**
-
-FTBQuests
- - Additional Create Quests
-   - Worked on titles and descriptions
-
----------------------------------------------------------
 **Version: 0.3.1**
 
 **Config**
 
 FTBQuests
  - Create quest outline
+    - Worked on titles and descriptions
 
 ---------------------------------------------------------
 
