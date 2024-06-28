@@ -14,6 +14,289 @@
 	}]
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0A4D7B93D257F0FE"
+			size: 1.5d
+			tasks: [{
+				id: "3A09D71070CBAF18"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A4D7B93D257F0FE"]
+			id: "37CEF912A6A093F4"
+			tasks: [{
+				id: "1C5AF43BFE086B90"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Tier 1 Blood Altar"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37CEF912A6A093F4"]
+			id: "5F9530CEA2840712"
+			tasks: [{
+				id: "78C7F0200873D8BE"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37CEF912A6A093F4"]
+			id: "3639626638C043D2"
+			tasks: [{
+				id: "2F1C83DE37AA7876"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3639626638C043D2"
+				"5F9530CEA2840712"
+			]
+			id: "02B5A26AE013B56C"
+			tasks: [{
+				count: 8L
+				id: "35921464EAF4C0C3"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02B5A26AE013B56C"]
+			dependency_requirement: "all_started"
+			id: "436EAB730FD43FA5"
+			tasks: [{
+				id: "3E6240CAB669C82D"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Tier 2 Blood Altar"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["436EAB730FD43FA5"]
+			id: "25D98EE79065195A"
+			tasks: [{
+				id: "1F1AB6483F3F7F31"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["436EAB730FD43FA5"]
+			id: "6C451F843A98C62B"
+			tasks: [{
+				count: 20L
+				id: "36434D8803A4AA6F"
+				item: { Count: 20, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C451F843A98C62B"]
+			id: "637CC92B555BAF43"
+			tasks: [{
+				id: "76C16E71796A4E21"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Tier 3 Blood Altar"
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["637CC92B555BAF43"]
+			id: "13B30DF4F929DFCB"
+			tasks: [{
+				count: 28L
+				id: "703E845896A1D5CB"
+				item: { Count: 28, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["436EAB730FD43FA5"]
+			id: "2AC588B2A777C012"
+			tasks: [{
+				id: "43A5C151307EADB1"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["637CC92B555BAF43"]
+			id: "4A21ADFD5B3A3279"
+			tasks: [{
+				id: "23C2141B3A9975BC"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4A21ADFD5B3A3279"]
+			id: "27A91C57EBF2DC11"
+			tasks: [{
+				id: "718D2A770BC8ACE7"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3639626638C043D2"]
+			id: "3FE36E4AB5B1DB91"
+			tasks: [{
+				id: "5935B748767F38AB"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["637CC92B555BAF43"]
+			id: "6FA1AEF85E213B89"
+			tasks: [{
+				id: "111639339B2402E4"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6FA1AEF85E213B89"]
+			id: "4668AD48266EACB4"
+			tasks: [{
+				id: "4F45D23B6148F201"
+				item: {
+					Count: 1
+					id: "bloodmagic:sanguinereverter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0A4D7B93D257F0FE"]
+			id: "177A01E3951DE916"
+			tasks: [{
+				id: "400689B7D035694E"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["177A01E3951DE916"]
+			id: "6E80B3CB9E3E5B87"
+			tasks: [{
+				id: "48E43214B6C501FE"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4668AD48266EACB4"]
+			id: "51FF65D87BA3C253"
+			tasks: [{
+				id: "55526E50D9ED48FB"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["51FF65D87BA3C253"]
+			id: "5657DDD89C1DE7DA"
+			tasks: [{
+				count: 4L
+				id: "26841333201E0D6E"
+				item: { Count: 4, id: "bloodmagic:bloodstonebrick" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"13B30DF4F929DFCB"
+				"5657DDD89C1DE7DA"
+			]
+			id: "2C1A8354B7B4B49A"
+			tasks: [{
+				id: "281DE04AC3DC8C0D"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Tier 4 Blood Altar"
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2C1A8354B7B4B49A"]
+			id: "55F55B98D8695D2A"
+			tasks: [{
+				count: 52L
+				id: "2DF5B352F5CD7CD9"
+				item: { Count: 52, id: "bloodmagic:blankrune" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["55F55B98D8695D2A"]
+			id: "70C0249EC7410DA9"
+			tasks: [{
+				id: "54D3E36C9E8EFB71"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Tier 5 Blood Altar"
+			x: -2.5d
+			y: 21.0d
+		}
+	]
 	title: "Blood Magic"
 }

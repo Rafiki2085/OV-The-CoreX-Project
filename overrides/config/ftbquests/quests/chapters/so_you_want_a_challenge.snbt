@@ -11,6 +11,7 @@
 		tasks: [{
 			id: "1497B9F2851CCD91"
 			max_input: 1000L
+			title: "1 Quadrillion FE"
 			type: "forge_energy"
 			value: 1000000000000000L
 		}]

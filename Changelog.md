@@ -1,3 +1,21 @@
+**Version: 0.3.3**
+
+**Config**
+
+FTB Quests
+ - Botania quests progress
+ - Blood magic quests progress
+
+**Update**
+
+Update draconic additions
+
+Update Ender IO
+
+Update Botany Pots
+
+---------------------------------------------------------
+
 **Version: 0.3.2**
 
 **Config**
