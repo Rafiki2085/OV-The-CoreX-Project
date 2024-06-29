@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "3DF4678EFCABAF02"
+	icon: "ars_nouveau:archmage_spell_book"
 	id: "5EC04830E05DB74F"
 	images: [{
 		height: 2.0d
@@ -14,6 +15,113 @@
 	}]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "69243E074C1FCB67"
+			size: 1.5d
+			tasks: [{
+				id: "3F761AE08FED2500"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69243E074C1FCB67"]
+			id: "4934ED517E2771A3"
+			tasks: [{
+				id: "55233D7E3459C41C"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69243E074C1FCB67"]
+			id: "2969DD7DA715CDB9"
+			tasks: [{
+				id: "60050FD77CCAF91A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "Any #forge:logs/archwood"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2969DD7DA715CDB9"]
+			id: "4722453A0B42D5A0"
+			tasks: [{
+				id: "1313DB7C120F1433"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4934ED517E2771A3"]
+			id: "5E4BBE4926AF98F0"
+			tasks: [{
+				id: "6BAAA233BA5B89CE"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2969DD7DA715CDB9"]
+			id: "307ED02C81FCCFA5"
+			tasks: [{
+				id: "449518D5D2B4B963"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["307ED02C81FCCFA5"]
+			id: "099EFC5B15367718"
+			tasks: [{
+				id: "1EEDC7D9F3230A7B"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["099EFC5B15367718"]
+			id: "6FECF9BEA411D350"
+			tasks: [{
+				id: "7452C7FD786B6322"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6FECF9BEA411D350"]
+			id: "0500F4D234ECB858"
+			tasks: [{
+				id: "52CBD369542EE6F6"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+	]
 	title: "Ars Nouveau"
 }

@@ -1,3 +1,16 @@
+**Version: 0.3.4**
+
+**Config**
+
+FTB Quests
+ - Ars Nouveau start
+
+**Update**
+
+Update Ender IO
+
+---------------------------------------------------------
+
 **Version: 0.3.3**
 
 **Config**

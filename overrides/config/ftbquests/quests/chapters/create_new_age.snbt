@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_new_age"
+	group: "37835E7EA2AC010B"
+	id: "0B967390250EEC47"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create New Age"
+}

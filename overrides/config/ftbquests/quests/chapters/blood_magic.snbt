@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "blood_magic"
 	group: "3DF4678EFCABAF02"
+	icon: "bloodmagic:altar"
 	id: "2F793DDAFCCE4B88"
 	images: [{
 		height: 2.0d
