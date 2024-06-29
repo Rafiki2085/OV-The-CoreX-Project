@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "solar_panels"
+	group: "3A84D759D3560DF5"
+	id: "205F810DA20AF9D1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Solar Flux Reborn"
+}

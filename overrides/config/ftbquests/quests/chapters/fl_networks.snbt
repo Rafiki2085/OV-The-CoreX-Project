@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fl_networks"
+	group: "3A84D759D3560DF5"
+	id: "08A6E9D096D15437"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Flux Networks"
+}

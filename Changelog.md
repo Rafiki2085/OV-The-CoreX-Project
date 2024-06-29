@@ -1,3 +1,27 @@
+**Version: 0.3.5**
+
+**Config**
+
+FTB Quests
+ - Ars Nouveau general outline
+ - Powah! general outline
+
+**Update**
+
+Update Botarium
+
+Update Resource Chickens
+
+**Remove**
+
+Remove KubeJS EnderIO - No longer needed
+
+Remove KubeJS Powah - No longer needed
+
+Remove KubeJS Thermal - No longer needed
+
+---------------------------------------------------------
+
 **Version: 0.3.4**
 
 **Config**

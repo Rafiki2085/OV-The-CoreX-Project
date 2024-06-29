@@ -3,13 +3,8 @@
 	#Allow resource chickens to breed.  0=no breeding, 1=all can breed, 2=set by individual configs.  Default: 2
 	#Range: 0 ~ 2
 	masterSwitchBreeding = 2
-	#Allow resource chickens to cross breed.  false=Can only breed with same type.  Default: true
+	#Allow resource chickens to cross-breed.  false=Can only breed with same type.  Default: true
 	allowCrossBreeding = true
-	#Resource chickens require their drop item for food/breeding.  Default: false
-	dropAsBreedingItem = false
-	#% Chance that breeding with vanilla chickens produce resource chickens. 0=Don't produce resource chickens.  Default: 80
-	#Range: 0 ~ 100
-	allowBreedingWithVanilla = 80
 	#Allow conversion of vanilla chickens to resource chickens.  Default: true
 	allowConvertingVanilla = true
 	#% Chance that resource is dropped upon death. 0=No resource dropped.  Default: 80
@@ -22,14 +17,22 @@
 	#Stasis Chamber drops items into the world when it is full.  Default: false
 	#Note: Many dropped items (Item Entities) will start to cause lag
 	spurtingChamber = false
-	#% chance chickens drop feathers.  0=no feather drops
-	#Applies to Nest and in-world drops
+	#% chance chickens/ducks drop feathers.  0=no feather drops
+	#Applies to Stasis Chamber and in-world drops
 	#Range: 0 ~ 100
 	chickenDropFeathers = 20
 	#Allow shearing of chickens/ducks to get feathers.  Default: true
 	allowShearingChickens = true
 	#Chickens must be analysed before breeding or laying drops.  Default: false  N/I
 	analyseChickens = false
+	#% chance chickens/ducks drop manure.  0=no manure
+	#Applies to Stasis Chamber and in-world drops
+	#Range: 0 ~ 100
+	chickenDropPoop = 20
+	#Maximum energy a Battery Egg can hold.
+	#Strength stat affects the energy value
+	#Range: 1 ~ 100000
+	energyEggMax = 5000
 
 ["Fake Player Interaction"]
 	#Allow Fakeplayer/automation of resource chicken breeding.  Default: true

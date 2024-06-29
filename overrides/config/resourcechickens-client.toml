@@ -8,4 +8,7 @@
 	renderJEIAnim = false
 	#Allow chicken textures to change on special days.  Default: true
 	allowEventTextures = true
+	#Show Chicken stats as a compact tooltip.  Default: false
+	#Note: Jade will start to shrink if the tooltip is too big
+	compactTips = false
 
