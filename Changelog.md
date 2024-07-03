@@ -1,3 +1,17 @@
+**Version: 0.3.6**
+
+**Update**
+
+Update Applied Energistics 2
+
+Update Draconic Additions
+
+Update Embeddium
+
+Update Extreme Sound Muffler
+
+---------------------------------------------------------
+
 **Version: 0.3.5**
 
 **Config**
