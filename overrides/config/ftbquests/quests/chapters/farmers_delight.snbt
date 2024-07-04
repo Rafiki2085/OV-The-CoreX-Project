@@ -21,15 +21,161 @@
 	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "676327085B5C7651"
-		tasks: [{
-			id: "6BD8E3B8F0329293"
-			item: "farmersdelight:cutting_board"
-			type: "item"
-		}]
-		x: -6.5d
-		y: -1.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"35B8090144FEEF95"
+				"38D915164D44B86D"
+				"3E7CA43A8DF9E6AF"
+				"283C1FC000B59CD8"
+				"0F13531A74F56951"
+			]
+			id: "676327085B5C7651"
+			tasks: [{
+				id: "6BD8E3B8F0329293"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D9B3959AC9F6802"]
+			id: "551F2BCCE5EE0E56"
+			tasks: [{
+				id: "61E5E01068C85D18"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "4D9B3959AC9F6802"
+			tasks: [{
+				id: "4B6985D75D598D5A"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			id: "7BF717F5D40178E7"
+			tasks: [{
+				id: "19D01D89FEBDD1B1"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "35B8090144FEEF95"
+			optional: true
+			tasks: [{
+				id: "72FD750A0296F32A"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "3E7CA43A8DF9E6AF"
+			optional: true
+			tasks: [{
+				id: "3614C591205BB0DF"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "283C1FC000B59CD8"
+			optional: true
+			tasks: [{
+				id: "5EA1C0E4FE1057C6"
+				item: {
+					Count: 1
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "38D915164D44B86D"
+			optional: true
+			tasks: [{
+				id: "1BAEAE08EE14B9EF"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "0F13531A74F56951"
+			optional: true
+			tasks: [{
+				id: "7E2730F158B5890D"
+				item: {
+					Count: 1
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+	]
 	title: "Farmer's Delight"
 }

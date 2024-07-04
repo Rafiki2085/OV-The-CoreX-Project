@@ -3,9 +3,209 @@
 	default_quest_shape: ""
 	filename: "solar_panels"
 	group: "3A84D759D3560DF5"
+	icon: "solarflux:sp_1"
 	id: "205F810DA20AF9D1"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "01D988E067466410"
+			size: 1.5d
+			tasks: [{
+				id: "6191AAEFB7975633"
+				item: "solarflux:mirror"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01D988E067466410"]
+			id: "57820E886BFC9222"
+			tasks: [{
+				id: "4844BD3B6E514622"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57820E886BFC9222"]
+			id: "4731704463F101C5"
+			tasks: [{
+				id: "2307AB7E74D3316C"
+				item: "solarflux:sp_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4731704463F101C5"]
+			id: "41973AB2B2FBE36E"
+			tasks: [{
+				id: "732361271318DB49"
+				item: "solarflux:photovoltaic_cell_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41973AB2B2FBE36E"]
+			id: "283B08C88A812629"
+			tasks: [{
+				id: "0947E36A633F1C5E"
+				item: "solarflux:sp_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["283B08C88A812629"]
+			id: "40E27DD7DF459066"
+			tasks: [{
+				id: "2C3BB06536F68456"
+				item: "solarflux:photovoltaic_cell_2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40E27DD7DF459066"]
+			id: "6ECFEDE858ADE9E2"
+			tasks: [{
+				id: "1D89A9D32CC55D41"
+				item: "solarflux:sp_4"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ECFEDE858ADE9E2"]
+			id: "05283A0BD2C7307F"
+			tasks: [{
+				id: "22E1420D22352633"
+				item: "solarflux:photovoltaic_cell_3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05283A0BD2C7307F"]
+			id: "03E078DEB6070B41"
+			tasks: [{
+				id: "6ACEC9096608E8BE"
+				item: "solarflux:sp_5"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03E078DEB6070B41"]
+			id: "5698883188DDDE53"
+			tasks: [{
+				id: "3C15D902CE980731"
+				item: "solarflux:blazing_coating"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["030F2B75E9E2D86C"]
+			id: "43838B1CA24765F2"
+			tasks: [{
+				id: "7EFC06314FB95C69"
+				item: "solarflux:sp_6"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5698883188DDDE53"]
+			id: "030F2B75E9E2D86C"
+			tasks: [{
+				id: "2C7867239C990A87"
+				item: "solarflux:photovoltaic_cell_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43838B1CA24765F2"]
+			id: "13893056793D0902"
+			tasks: [{
+				id: "477A338F727BC705"
+				item: "solarflux:emerald_glass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13893056793D0902"]
+			id: "50A6AB99248D3719"
+			tasks: [{
+				id: "291F0B4BCCAF2DC8"
+				item: "solarflux:photovoltaic_cell_5"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50A6AB99248D3719"]
+			id: "3ABB75C4C3948DC5"
+			tasks: [{
+				id: "1258832918691759"
+				item: "solarflux:sp_7"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3ABB75C4C3948DC5"]
+			id: "6C379684BEEFDC0A"
+			tasks: [{
+				id: "6B40EF6B8D190923"
+				item: "solarflux:ender_glass"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C379684BEEFDC0A"]
+			id: "48D0DF99CE0F86AC"
+			tasks: [{
+				id: "09609F37ED276F0F"
+				item: "solarflux:photovoltaic_cell_6"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D0DF99CE0F86AC"]
+			id: "70255F891242D65E"
+			tasks: [{
+				id: "4F6467581008B23B"
+				item: "solarflux:sp_8"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+	]
 	title: "Solar Flux Reborn"
 }

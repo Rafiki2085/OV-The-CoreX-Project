@@ -1,3 +1,28 @@
+**Version: 0.3.7**
+
+**Config**
+
+FTB Quests
+ - Solar Flux Reborn
+ - Flux Networks
+ - Cooking for Blockheads
+ - Farmer's Delight - In-Progress
+ - Spice of Life
+
+**Update**
+
+Update Create: The Factory Must Grow
+
+Update Cucumber Library
+
+Update Extreme Reactors
+
+Update Iron Jetpacks
+
+Update Waystones
+
+---------------------------------------------------------
+
 **Version: 0.3.6**
 
 **Update**
