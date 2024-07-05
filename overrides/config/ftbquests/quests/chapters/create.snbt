@@ -134,8 +134,14 @@
 		{
 			dependencies: ["0B9274369C9E82E3"]
 			dependency_requirement: "one_completed"
+			description: [
+				"The &6mechanical press&r is used for a lot of different things, like making sheets or some recipes using a basin"
+				""
+				"The &6depot&r is used to hold items on one block, can is a good item to use with the press."
+			]
 			id: "2A928F41A1FDE485"
 			min_required_dependencies: 1
+			subtitle: "Sheets"
 			tasks: [{
 				id: "2D903563B7CCB64A"
 				item: "create:mechanical_press"
@@ -167,7 +173,9 @@
 		}
 		{
 			dependencies: ["2A928F41A1FDE485"]
+			description: ["The iron sheet opens up many more machines"]
 			id: "61EA75DF83D9E2C6"
+			subtitle: "So many more machines"
 			tasks: [{
 				id: "473DDAC89BE19F70"
 				item: "create:iron_sheet"
@@ -178,20 +186,34 @@
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
+			description: ["The &6Saw&r will chop down the whole tree infront of it and does work on &6contraptions.&r"]
 			id: "459959FBBFCA75A4"
 			optional: true
+			subtitle: "The WHOLE Tree!"
 			tasks: [{
 				id: "05028C162177083B"
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
+			title: "Mechanical Saw"
 			x: 3.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
+			description: [
+				"The &6encased fan&r has many different uses, it can be used to blast, wash, haunt and smoke items. The rotation will mean it either pushes or pulls air"
+				""
+				"Assuming a Pushing Fan:"
+				""
+				"To &cblast&r items you need to put a lava source infront of the fan"
+				"To &9wash&r items you need to put a water source infront of the fan"
+				"To &bhaunt&r items you need to put a soul campfire infront of the fan"
+				"To &esmoke&r items you need to put a campire infront of the fan"
+			]
 			id: "00ACCA196751DF29"
 			optional: true
+			subtitle: "blast, wash, haunt and smoke"
 			tasks: [{
 				id: "473FD1F097A3CE45"
 				item: "create:encased_fan"
@@ -202,7 +224,9 @@
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
+			description: ["The &6Mixer&r can mix fluids and items to make new versions, needed to open up the next \"age\" of create the &6Brass Age&r"]
 			id: "3837ABD2BC682681"
+			subtitle: "Alloy Time"
 			tasks: [
 				{
 					id: "7F8E01C180791B98"
@@ -221,9 +245,11 @@
 		{
 			dependencies: ["0B9274369C9E82E3"]
 			dependency_requirement: "one_completed"
+			description: ["The &6millstone&r has the ability to crush many items like flowers for dye, or wheat for a more bread output."]
 			id: "2B4D76CDEE25830D"
 			min_required_dependencies: 1
 			optional: true
+			subtitle: "Grind it down"
 			tasks: [{
 				id: "50282DF58B30E169"
 				item: "create:millstone"
@@ -234,7 +260,9 @@
 		}
 		{
 			dependencies: ["3837ABD2BC682681"]
+			description: ["Right Click on a Blaze or Blaze Spawer to capture a blaze."]
 			id: "6E49D2C4E4E5DD53"
+			subtitle: "Blaze Cage"
 			tasks: [{
 				id: "00F31C1CD7653DBE"
 				item: "create:empty_blaze_burner"
@@ -245,7 +273,9 @@
 		}
 		{
 			dependencies: ["6E49D2C4E4E5DD53"]
+			description: ["The &6Blaze Burner&r is a heat source for both the &6Mixer&r and the &6Steam Engines&r."]
 			id: "2204F05E36232603"
+			subtitle: "Heat"
 			tasks: [{
 				id: "64B161A533D81D20"
 				item: "create:blaze_burner"
@@ -256,7 +286,9 @@
 		}
 		{
 			dependencies: ["2204F05E36232603"]
+			description: ["&6Brass&r is the start of the next generation of create, it allows for crafting many more advanced options"]
 			id: "6031361CAA62279B"
+			subtitle: "The Next Age"
 			tasks: [{
 				id: "3184DF7665C7DA14"
 				item: "create:brass_ingot"
@@ -267,8 +299,10 @@
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
+			description: ["The &6Harvester&r will soft hervest the crop infront of it and does work on &6contraptions.&r"]
 			id: "15B56659C6FF4196"
 			optional: true
+			subtitle: "Soft Harvester"
 			tasks: [{
 				id: "734B8D833D66A52B"
 				item: "create:mechanical_harvester"
@@ -279,8 +313,10 @@
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
+			description: ["The &6Plow&r will till the block infront and below of it and does work on &6contraptions.&r"]
 			id: "205CBE70A0CDACDD"
 			optional: true
+			subtitle: "Infinity Hoe!"
 			tasks: [{
 				id: "532C1C182ADF536F"
 				item: "create:mechanical_plough"
@@ -291,7 +327,9 @@
 		}
 		{
 			dependencies: ["6031361CAA62279B"]
+			description: ["The &6brass casing&r is the upgrade of the &eandesite casing&r with it's ability to make better quality items for automation"]
 			id: "3F47FBC27F128937"
+			subtitle: "Better Casing"
 			tasks: [{
 				id: "5DF8B7DACBD6F17A"
 				item: "create:brass_casing"
@@ -302,7 +340,9 @@
 		}
 		{
 			dependencies: ["6031361CAA62279B"]
+			description: ["Many other Create based mods use brass sheets"]
 			id: "304BEE8A33CB8E84"
+			subtitle: "Used by many additional Create Mods"
 			tasks: [{
 				id: "5C6C14EE27429EEE"
 				item: "create:brass_sheet"
@@ -313,7 +353,9 @@
 		}
 		{
 			dependencies: ["304BEE8A33CB8E84"]
+			description: ["used for extended grip and automated clicking"]
 			id: "5D6310A24D16E8B8"
+			subtitle: "A Helping Hand"
 			tasks: [{
 				id: "07B44594FFC0E0CA"
 				item: "create:brass_hand"
@@ -327,7 +369,9 @@
 				"64A4994E4DA79499"
 				"5D6310A24D16E8B8"
 			]
+			description: ["The &6deployer&r is the start of automation as it is used in many different multi step crafts like &6precision mechanisms&r and many others"]
 			id: "5222B52CF5FC8F54"
+			subtitle: "Automated Clicker"
 			tasks: [{
 				id: "093D99722EA5CA9D"
 				item: "create:deployer"
@@ -338,16 +382,17 @@
 		}
 		{
 			dependencies: ["09E3673A7EE78DF8"]
+			description: ["electron tubes are used to make many advanced items"]
 			id: "64A4994E4DA79499"
 			subtitle: "Shiny"
 			tasks: [
 				{
-					id: "35E8E914EFEB20ED"
+					id: "607832E5CF8F3E17"
 					item: "create:polished_rose_quartz"
 					type: "item"
 				}
 				{
-					id: "601BFA878D046308"
+					id: "0AE5946A874F3C7A"
 					item: "create:electron_tube"
 					type: "item"
 				}
@@ -390,7 +435,9 @@
 		}
 		{
 			dependencies: ["64A4994E4DA79499"]
+			description: ["The &6brass funnel&r is an upgraded andesite funnel, lets you add item filters and moves upto a stack at a time"]
 			id: "62C2631B0556EA9E"
+			subtitle: "Filter Sideways Hoppers"
 			tasks: [{
 				id: "3DFA409690584C2D"
 				item: "create:brass_funnel"
@@ -404,7 +451,9 @@
 				"23731C142B34CFA0"
 				"0B9274369C9E82E3"
 			]
+			description: ["Funnels are used to push and pull items between inventories including belts, chests, depots and more."]
 			id: "3F8622BBE05F93EE"
+			subtitle: "Sideways Hoppers?!"
 			tasks: [{
 				id: "5FB4374CB95ABA9B"
 				item: "create:andesite_funnel"
@@ -442,7 +491,9 @@
 		}
 		{
 			dependencies: ["0B9274369C9E82E3"]
+			description: ["The &6mechinal drill&r will mine the block infront of it and does work on &6contraptions.&r"]
 			id: "4A7B25D3033C5778"
+			subtitle: "Better then Diamond?!"
 			tasks: [{
 				id: "50BD41714EAFEC25"
 				item: "create:mechanical_drill"
@@ -601,8 +652,10 @@
 				"6E1E31D9D6D7E62F"
 			]
 			dependency_requirement: "one_completed"
+			description: ["To Automate and Produce things you will need some basic machines."]
 			id: "0B9274369C9E82E3"
 			min_required_dependencies: 1
+			subtitle: "Automation Basics"
 			tasks: [{
 				id: "48398C2A42682655"
 				title: "Basic Machines"
@@ -616,7 +669,9 @@
 				"64A4994E4DA79499"
 				"3F47FBC27F128937"
 			]
+			description: ["The &6mechanical crafter&r can be made into a multi block to craft different items, the biggest item it will need to craft is the crushing wheels"]
 			id: "3113A6CA7326F8A4"
+			subtitle: "Automated Crafting"
 			tasks: [{
 				id: "700BC2EA7B165442"
 				item: "create:mechanical_crafter"
@@ -641,7 +696,9 @@
 		}
 		{
 			dependencies: ["0B9274369C9E82E3"]
+			description: ["The &6depot&r is used to hold items on one block, and up to 1 stack at a time.  Can be used with things like the Press and later on the Deployer"]
 			id: "3400E37FF3831D66"
+			subtitle: "1 stack max"
 			tasks: [{
 				id: "7B21394595EA9979"
 				item: "create:depot"
@@ -681,18 +738,22 @@
 		}
 		{
 			dependencies: ["2E46BC49FE7F586B"]
+			description: ["Can control the angle of the turn"]
 			id: "6A65F531180764FD"
+			subtitle: "Controlled Turns"
 			tasks: [{
 				id: "776C967FEFEB3F5D"
 				item: "create:copper_valve_handle"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2E46BC49FE7F586B"]
+			description: ["The &6fluid tank&r is a easy way to store a large amount of liquid. The biggest it can be is a 3x3 base and upto 30 tall, which stores a very large amount"]
 			id: "3EF94299959EFBED"
+			subtitle: "Fluid Storage"
 			tasks: [{
 				id: "1AC066C4FEA11827"
 				item: "create:fluid_tank"
@@ -703,7 +764,9 @@
 		}
 		{
 			dependencies: ["2E46BC49FE7F586B"]
+			description: ["The &6item drain&r has the ability to take liquid out of a container and then it stores it until it it is piped out into a container"]
 			id: "2D9C8457A57CD2B8"
+			subtitle: "Fluid Hopper?"
 			tasks: [{
 				id: "4ED998665FA7DD64"
 				item: "create:item_drain"
@@ -714,43 +777,45 @@
 		}
 		{
 			dependencies: ["2E46BC49FE7F586B"]
+			description: ["The &6spout&r can be used to drop liquid onto an item that's below it on a depot or belt to be able to change what the item is"]
 			id: "5C663C0C7E2E6F96"
+			subtitle: "Liquid Crafting"
 			tasks: [{
 				id: "4C00AF670127579F"
 				item: "create:spout"
 				type: "item"
 			}]
 			x: -7.5d
-			y: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2E46BC49FE7F586B"]
+			description: ["The &6pipe&r and &6mechanical pump&r are used hand in hand to move liquids around, the &6pump&r does need to be given so rotational speed, depending on the way the rotation goes decideds which way by default the &6pump&r wants to move the liquid, the wrench can be used on it to switch the way the liquid is moved by the pump"]
 			id: "41E9D5781C3EC9F7"
-			tasks: [{
-				id: "55986468CE7FAEDF"
-				item: "create:fluid_pipe"
-				type: "item"
-			}]
+			subtitle: "Moving Fluid"
+			tasks: [
+				{
+					id: "55986468CE7FAEDF"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1188AE9B39AD0D93"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2E46BC49FE7F586B"]
+			description: ["The &6hose pulley&r has the ability to pull liquids from the world to be transported, if the source the pulley is pulling from is at least 125 blocks then it classes it as an infinite source of liquid"]
 			id: "32FA1136EB7B1C9F"
+			subtitle: "Collecting Liquid"
 			tasks: [{
 				id: "4854B6FAE7C1BC98"
 				item: "create:hose_pulley"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2E46BC49FE7F586B"]
-			id: "467816EB92BBF0CA"
-			tasks: [{
-				id: "742603992637A97A"
-				item: "create:mechanical_pump"
 				type: "item"
 			}]
 			x: -6.0d
@@ -760,7 +825,6 @@
 			dependencies: [
 				"3EF94299959EFBED"
 				"41E9D5781C3EC9F7"
-				"467816EB92BBF0CA"
 				"3E595C370853BB20"
 			]
 			description: [
@@ -786,7 +850,9 @@
 				"23731C142B34CFA0"
 				"0B9274369C9E82E3"
 			]
+			description: ["Tunnles can be used to split and combine things on belts."]
 			id: "41950A33F58AB57B"
+			subtitle: "A belt splitter / combiner"
 			tasks: [{
 				id: "08678E982591003E"
 				item: "create:andesite_tunnel"
@@ -797,7 +863,9 @@
 		}
 		{
 			dependencies: ["64A4994E4DA79499"]
+			description: ["Tunnles can be used to split and combine things on belts with filters."]
 			id: "5FEF73B74B37D1C6"
+			subtitle: "A belt splitter / combiner with filters"
 			tasks: [{
 				id: "481F73B7C84D2655"
 				item: "create:brass_tunnel"
@@ -823,6 +891,7 @@
 		}
 		{
 			dependencies: ["61EA75DF83D9E2C6"]
+			description: ["The &6chute&r acts similar to a hopper and dropper combined, as you can stack them on top of eachother and they will continue to funnnel the items down and drop them once they reach the end but they can also push items up if there is an &6encased fan&r blowing air up through the &6chute&r"]
 			id: "2AFF9598B36EEF8B"
 			subtitle: "The Cheaper Hopper"
 			tasks: [{
@@ -835,7 +904,9 @@
 		}
 		{
 			dependencies: ["794CB7F27FF304F1"]
+			description: ["The &6mechanical speed controller&r is a easier way to speed up rotational speeds, you can right click it and set the speed you want it to spin at"]
 			id: "18B3D380EBB9F730"
+			subtitle: "I have the need for speed"
 			tasks: [{
 				id: "04381F1EAD01B19F"
 				item: "create:rotation_speed_controller"
@@ -846,7 +917,9 @@
 		}
 		{
 			dependencies: ["5222B52CF5FC8F54"]
+			description: ["The &6precision mechanism&r is used in making some more advanced items like the &6rotational speed controller&r and it requires a gold sheet to have 3 items deployed onto it in a specific order of small cogwheel then large cogwheel and lastely an iron nugget. That process is repeated 5x and has an 80% chance to work at the end"]
 			id: "794CB7F27FF304F1"
+			subtitle: "The Brain?"
 			tasks: [{
 				id: "3F573262364C0217"
 				item: "create:precision_mechanism"
@@ -857,7 +930,17 @@
 		}
 		{
 			dependencies: ["3113A6CA7326F8A4"]
+			description: [
+				"To craft the crushing wheels a large number of &6mechanical crafters&r are required in the arrangement below:"
+				""
+				"&6_XXX_&r"
+				"&6XXXXX&r"
+				"&6XXXXX&r"
+				"&6XXXXX&r"
+				"&6_XXX_&r"
+			]
 			id: "7F79157699CA7891"
+			subtitle: "Mega Crushers"
 			tasks: [{
 				id: "4C0AB4F9DD6E4025"
 				item: "create:crushing_wheel"
@@ -868,7 +951,9 @@
 		}
 		{
 			dependencies: ["794CB7F27FF304F1"]
+			description: ["The &6mechanical arm&r can be setup to move items from one spot to another spot like depot to depot"]
 			id: "34D6D4ED390A17E3"
+			subtitle: "From here to there"
 			tasks: [{
 				id: "06088A11D7089F98"
 				item: "create:mechanical_arm"
@@ -879,7 +964,9 @@
 		}
 		{
 			dependencies: ["64A4994E4DA79499"]
+			description: ["Used to monitor and send a redstone signal based on how full the storage its facing is."]
 			id: "4528816FD237D76C"
+			subtitle: "Storage Monitoring"
 			tasks: [{
 				id: "621E76E2DD242571"
 				item: "create:stockpile_switch"
@@ -890,7 +977,9 @@
 		}
 		{
 			dependencies: ["64A4994E4DA79499"]
+			description: ["Can be used to create a sequance of speed and directions to follow, good for extendable pistions or farming contraptions"]
 			id: "192FBCB75DFA5EB9"
+			subtitle: "Controlled Direction"
 			tasks: [{
 				id: "3DDCC4BDE3E35569"
 				item: "create:sequenced_gearshift"
@@ -901,7 +990,9 @@
 		}
 		{
 			dependencies: ["64A4994E4DA79499"]
+			description: ["Can be used to monitor inventories and belts and sends redstone when it detects the filtered item"]
 			id: "4D6DC06C8877D7F6"
+			subtitle: "Watchful Eye"
 			tasks: [{
 				id: "6B946371C94DD386"
 				item: "create:content_observer"
@@ -912,7 +1003,9 @@
 		}
 		{
 			dependencies: ["3F47FBC27F128937"]
+			description: ["Each link can have two items used to set the channel code, and can be in send or recv mode."]
 			id: "07CBFCB132E53570"
+			subtitle: "Wireless Redstone"
 			tasks: [{
 				id: "591838600476CED4"
 				item: "create:redstone_link"
@@ -922,7 +1015,10 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["61EA75DF83D9E2C6"]
+			dependencies: [
+				"61EA75DF83D9E2C6"
+				"453360B073F1F637"
+			]
 			description: [
 				"The &6cart assembler&r has the ability to attach any &2glued&r blocks you want to build to a minecartc contraption."
 				""
@@ -953,7 +1049,9 @@
 		}
 		{
 			dependencies: ["2AFF9598B36EEF8B"]
+			description: ["The &6portable storage interface&r needs 2 to work correctly, one of them on the contraption and the other one not attached to the contraption and with a 1 block gap and aligned with eachother before the machine is started so that on each rotation is will deposit the excess items into the stationary one"]
 			id: "6C47BA2377D3E16C"
+			subtitle: "Contraption Hoppers"
 			tasks: [{
 				id: "6F8D86FB63E962C3"
 				item: "create:portable_storage_interface"
@@ -1004,7 +1102,9 @@
 		}
 		{
 			dependencies: ["3F47FBC27F128937"]
+			description: ["&6Elevators&r are a really fun way to travel vertically through the use of contraptions."]
 			id: "4BB5E82AA22F5D46"
+			subtitle: "Vertical Travel with selections"
 			tasks: [{
 				id: "3B578B082F4F90F7"
 				item: "create:elevator_pulley"
@@ -1015,7 +1115,9 @@
 		}
 		{
 			dependencies: ["4BB5E82AA22F5D46"]
+			description: ["The &6redstone contact&r is used to dictate where the elevator will stop at when the 2 contacts connect to eachother"]
 			id: "3EB4510474C33D45"
+			subtitle: "Contraption Detection"
 			tasks: [{
 				id: "0E0C7E219E33D3B5"
 				item: "create:redstone_contact"
@@ -1026,7 +1128,12 @@
 		}
 		{
 			dependencies: ["4BB5E82AA22F5D46"]
+			description: [
+				"The &6contraption control&r is used as the interface of the elevator for the player to look at and scroll up or "
+				"down on the mouse to select the level"
+			]
 			id: "7CFF7CBA4A3434C7"
+			subtitle: "Elevator Button"
 			tasks: [{
 				id: "1AAE75B648098027"
 				item: "create:contraption_controls"
@@ -1053,6 +1160,42 @@
 			}]
 			x: 1.5d
 			y: -7.5d
+		}
+		{
+			description: [
+				"To make &6super glue&r, you will need &2Slime.&r"
+				""
+				"Create has a way to make slime from &ewheat&r and &alime dye&r."
+			]
+			icon: "minecraft:slime_ball"
+			id: "453360B073F1F637"
+			size: 1.5d
+			subtitle: "Growable Slime?"
+			tasks: [{
+				id: "495F7A64DACB0485"
+				title: "Slime"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D6310A24D16E8B8"]
+			id: "775613D0A2358B3D"
+			subtitle: "Long Reach"
+			tasks: [{
+				id: "1A3DEDC10D9B2D9D"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
 		}
 	]
 	title: "Create"
