@@ -1,3 +1,12 @@
+**Version: 0.3.8**
+
+**Config**
+
+FTB Quests
+ - Create
+ - Create Stuff n Additions
+
+---------------------------------------------------------
 **Version: 0.3.7**
 
 **Config**

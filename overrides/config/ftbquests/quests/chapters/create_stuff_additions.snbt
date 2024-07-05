@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_stuff_additions"
+	group: "37835E7EA2AC010B"
+	icon: {
+		Count: 1
+		id: "create_sa:brass_jetpack_chestplate"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "2B4E4B9464ED2BD3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Some &6Tools&r and Armor use &1Water&r and/or &0Fuel&r to power them."]
+			id: "5339914DA8CE2326"
+			subtitle: "Steam Power"
+			tasks: [
+				{
+					id: "37345201E46E2578"
+					item: {
+						Count: 1
+						id: "create_sa:small_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4588FD4143C48132"
+					item: {
+						Count: 1
+						id: "create_sa:small_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Tool Tanks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5339914DA8CE2326"]
+			description: [
+				"3 levels of jetpack are possible."
+				""
+				"&6Copper&r only uses &1Water&r"
+				"&8Andesite&r only uses &0Fuel&r"
+				"&6Brass&r uses both &1Water&r and &0Fuel&r"
+			]
+			id: "17CEDC258DF1DFF4"
+			rewards: [{
+				id: "70E815CB763F7CD9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Steam Powered Flight"
+			tasks: [
+				{
+					id: "3F3AE590BBFEA613"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create_sa:jetpack)"
+						}
+					}
+					title: "Any #create_sa:jetpack"
+					type: "item"
+				}
+				{
+					id: "1797FD8009AD1246"
+					item: {
+						Count: 1
+						id: "create_sa:large_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0EBAC2CDEB513B9B"
+					item: {
+						Count: 1
+						id: "create_sa:large_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Jetpacks"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5339914DA8CE2326"]
+			description: [
+				"Uses Water and Fuel instead of durability."
+				""
+				"Can be Enchanted with increase the digging size, among others"
+			]
+			id: "400651E78B2D0067"
+			rewards: [{
+				id: "57BDFADDA8B45670"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create_sa:digging"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Forever Drill"
+			tasks: [{
+				id: "1F6EBC2C0D860405"
+				item: {
+					Count: 1
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5339914DA8CE2326"]
+			description: ["Hold \"Shift\" when hovering over the item for more information"]
+			id: "4A9BADDA92873C18"
+			rewards: [{
+				id: "5A7EC883054B81BA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create_sa:impact"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Cheaper then Flight"
+			tasks: [{
+				id: "5B8ACB8B2768A467"
+				item: {
+					Count: 1
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5339914DA8CE2326"]
+			description: ["Hold \"Shift\" when hovering over the item for more information"]
+			id: "369CDD9B0F2E4252"
+			rewards: [{
+				id: "589E9486293D0FE8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create_sa:gravity_gun"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Mob Capture?"
+			tasks: [{
+				id: "3D36FFC8E4126535"
+				item: {
+					Count: 1
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "4EA158CAC9FFFA84"
+			rewards: [{
+				auto: "enabled"
+				description: ""
+				id: "073C5264DD5622DA"
+				team_reward: false
+				title: "The Crazy Armor Options"
+				type: "toast"
+			}]
+			subtitle: "So many armor options"
+			tasks: [
+				{
+					id: "57561EC7C4360D6C"
+					item: {
+						Count: 1
+						id: "create_sa:copper_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1613ABC68FA3CD"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DAAB0997E6CA2A6"
+					item: {
+						Count: 1
+						id: "create_sa:brass_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69D2DE5D956CF8BF"
+					item: {
+						Count: 1
+						id: "create_sa:slime_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Other Armors"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "373826160D5F9D6B"
+			rewards: [{
+				auto: "enabled"
+				description: ""
+				id: "15DC1D9F7BB949E3"
+				team_reward: false
+				title: "The Crazy Tool Options"
+				type: "toast"
+			}]
+			subtitle: "So many tool options"
+			tasks: [
+				{
+					id: "4177DA37F971B765"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_cleaver"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43E6C43681DE43A5"
+					item: {
+						Count: 1
+						id: "create_sa:rose_quartz_pickaxe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB7C5A76B35B907"
+					item: {
+						Count: 1
+						id: "create_sa:experience_shovel"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55591EB63B9899FA"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BF6A003859721C0"
+					item: {
+						Count: 1
+						id: "create_sa:copper_hoe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Other Tools"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Create Stuff \\&\\ Additions"
+}
