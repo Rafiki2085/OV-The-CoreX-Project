@@ -1,3 +1,71 @@
+**Version: 1.0.0**
+
+**Update**
+
+Update Almost Unified
+
+Update Applied Energistics 2
+
+Update Ars Energistique
+
+Update Botania
+
+Update Botany Pots
+
+Update Comforts
+
+Update Connectivity
+
+Update Corail Tombstone
+
+Update Create The Factory Must Grow
+
+Update Draconic Evolution
+
+Update Easy Villagers
+
+Update Embeddium
+
+Update Ender IO
+
+Update ExtendedAE
+
+Update Extreme Reactors
+
+Update FTB Quests
+
+Update Irons Spellbooks
+
+Update HammerLib
+
+Update Just Enough Items
+
+Update Mahou Tsukai
+
+Update Mana and Artifice
+
+Update ModernFix
+
+Update Modonomicon
+
+Update PackagedAuto
+
+Update PackagedExCrafting
+
+Update Re:Avaritia
+
+Update SmartBrainLib
+
+Update Titanium
+
+Update UtilitiX
+
+**Remove**
+
+Remove Just Enough Mekanism Multiblocks - No longer compatible with JEI update
+
+---------------------------------------------------------
+
 **Version: 0.3.8**
 
 **Config**
