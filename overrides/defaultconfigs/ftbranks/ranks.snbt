@@ -3,11 +3,51 @@
 		name: "Member"
 		power: 1
 		condition: "always_active"
+		ftbchunks.max_claimed: 50
+		ftbchunks.max_force_loaded: 5
+		ftbranks.name_format: "{name}"
 	}
-	vip: {
-		name: "VIP"
+	active: {
+		name: "Active"
+		power: 10
+		ftbchunks.max_claimed: 75
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&a{name}"
+	}
+	skilled: {
+		name: "Skilled"
+		power: 12
+		ftbchunks.max_claimed: 100
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&b{name}"
+	}
+	collector: {
+		name: "Collector"
 		power: 50
-		ftbranks.name_format: "&bVIP {name}"
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&3{name}"
+	}
+	botanist: {
+		name: "Botanist"
+		power: 50
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&2{name}"
+	}
+	electric: {
+		name: "Electric"
+		power: 50
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&9{name}"
+	}
+	enchanted: {
+		name: "Enchanted"
+		power: 50
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&5{name}"
 	}
 	admin: {
 		name: "Admin"

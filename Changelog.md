@@ -5,6 +5,31 @@
 FTB Quests
  - Challenges - Progress
 
+FTB Essentials
+ - Back cooldown 30 -> 15 seconds
+ - Home cooldown 10 -> 5 seconds
+ - Home max 1 -> 3
+ - RTP max distance 25000 -> 2000
+ - RTP max tries 100 -> 5
+
+FTB Ranks
+ - Active
+ - Skilled
+ - Collector
+ - Botanist
+ - Electric
+ - Enchanted
+
+FTB Chunks
+ - force_load_mode: "default" -> always
+ - max_idle_days_before_unforce: 0.0d -> 5.0d
+
+Does Potato Tick?
+ - Dimension whitelist -> "jamd:end", "jamd:mining", "jamd:nether", "javd:void"
+
+Ars Scalaes
+ - scaling_ars_damage = 0.0 -> 2.0
+
 **Update**
 
 Update Almost Unified
@@ -68,6 +93,14 @@ Update UtilitiX
 **Remove**
 
 Remove Just Enough Mekanism Multiblocks - No longer compatible with JEI update
+
+**Add**
+
+Add DoesPotatoTick?
+
+Add Ksyxis
+
+Add Ars Scalaes
 
 ---------------------------------------------------------
 

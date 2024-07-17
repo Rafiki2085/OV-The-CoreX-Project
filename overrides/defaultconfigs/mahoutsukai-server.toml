@@ -60,6 +60,9 @@
 		DRAIN_LIFE_PUNISH_RESIST = 1.8
 		#Entities that won't be considered for the boundary
 		DRAIN_LIFE_ENTITY_BLACKLIST = []
+		#This is how many entities the circle can affect each tick
+		#Range: 0 ~ 100000000
+		DRAIN_LIFE_AFFECTED_LIMIT = 100000
 
 	[boundary.gravity]
 		#This is the mana cost per cycle
@@ -1325,4 +1328,11 @@
 	ARMOR_STANDS_IMMUNE = true
 	#Mahou Resets After Death
 	ONE_LIFE = true
+	#Names of magic circles to have restrictions
+	ACTIVE_MAGIC_CIRCLE_NAMES = ["mahoutsukai:mahoujin_drain_life_barrier"]
+	#How many active circles of one type a caster can have. Requires NAMES config
+	ACTIVE_MAGIC_CIRCLE_LIMITS = [10]
+	#How long before an active circle can be replaced
+	#Range: 0 ~ 10000000
+	ACTIVE_MAGIC_CIRCLE_REPLACEMENT_TIME = 201
 
