@@ -5,6 +5,45 @@
       "name": "DataDal",
       "uniqueId": "50ab35c4-2c0d-4ce3-8197-4eb73844f7f2"
     },
+    "time": 1721339535423,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/o6vVMCHzaN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "DataDal",
+      "uniqueId": "50ab35c4-2c0d-4ce3-8197-4eb73844f7f2"
+    },
+    "time": 1721337740157,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0O5AoMeMJe"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "DataDal",
+      "uniqueId": "50ab35c4-2c0d-4ce3-8197-4eb73844f7f2"
+    },
+    "time": 1721337641870,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/c9B5G4VTWc"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "DataDal",
+      "uniqueId": "50ab35c4-2c0d-4ce3-8197-4eb73844f7f2"
+    },
     "time": 1719090715515,
     "type": "Profiler",
     "data": {

@@ -30,6 +30,9 @@ Does Potato Tick?
 Ars Scalaes
  - scaling_ars_damage = 0.0 -> 2.0
 
+In Control!
+ - Adjust mob spawn rules and amounts per dimension per player
+
 **Update**
 
 Update Almost Unified
@@ -37,6 +40,8 @@ Update Almost Unified
 Update Applied Energistics 2
 
 Update Ars Energistique
+
+Update Easy Villagers
 
 Update Botania
 
@@ -62,6 +67,8 @@ Update ExtendedAE
 
 Update Extreme Reactors
 
+Update FTB Library
+
 Update FTB Quests
 
 Update Irons Spellbooks
@@ -84,6 +91,8 @@ Update PackagedExCrafting
 
 Update Re:Avaritia
 
+Update Recipe Essentials
+
 Update SmartBrainLib
 
 Update Titanium
@@ -94,6 +103,12 @@ Update UtilitiX
 
 Remove Just Enough Mekanism Multiblocks - No longer compatible with JEI update
 
+Remove Domum Ornamentum - Replacement
+
+Remove Mekanism Additions
+
+Remove Deep Dark: Regrowth - Conflict, and already have Deeper and Darker so makes it pointless to have (also a MCreator mod)
+
 **Add**
 
 Add DoesPotatoTick?
@@ -101,6 +116,16 @@ Add DoesPotatoTick?
 Add Ksyxis
 
 Add Ars Scalaes
+
+Add Yung's Better Strongholds
+
+Add Yung's Better End Island
+
+Add Yung's Extras
+
+Add Moog's End Structures
+
+Add The Outer End
 
 ---------------------------------------------------------
 
