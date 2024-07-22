@@ -1,3 +1,134 @@
+**Version: 1.0.0**
+
+**Config**
+
+FTB Quests
+ - Challenges - Progress
+
+FTB Essentials
+ - Back cooldown 30 -> 15 seconds
+ - Home cooldown 10 -> 5 seconds
+ - Home max 1 -> 3
+ - RTP max distance 25000 -> 2000
+ - RTP max tries 100 -> 5
+
+FTB Ranks
+ - Active
+ - Skilled
+ - Collector
+ - Botanist
+ - Electric
+ - Enchanted
+
+FTB Chunks
+ - force_load_mode: "default" -> always
+ - max_idle_days_before_unforce: 0.0d -> 5.0d
+
+Does Potato Tick?
+ - Dimension whitelist -> "jamd:end", "jamd:mining", "jamd:nether", "javd:void"
+
+Ars Scalaes
+ - scaling_ars_damage = 0.0 -> 2.0
+
+In Control!
+ - Adjust mob spawn rules and amounts per dimension per player
+
+**Update**
+
+Update Almost Unified
+
+Update Applied Energistics 2
+
+Update Ars Energistique
+
+Update Easy Villagers
+
+Update Botania
+
+Update Botany Pots
+
+Update Comforts
+
+Update Connectivity
+
+Update Corail Tombstone
+
+Update Create The Factory Must Grow
+
+Update Draconic Evolution
+
+Update Easy Villagers
+
+Update Embeddium
+
+Update Ender IO
+
+Update ExtendedAE
+
+Update Extreme Reactors
+
+Update FTB Library
+
+Update FTB Quests
+
+Update Irons Spellbooks
+
+Update HammerLib
+
+Update Just Enough Items
+
+Update Mahou Tsukai
+
+Update Mana and Artifice
+
+Update ModernFix
+
+Update Modonomicon
+
+Update PackagedAuto
+
+Update PackagedExCrafting
+
+Update Re:Avaritia
+
+Update Recipe Essentials
+
+Update SmartBrainLib
+
+Update Titanium
+
+Update UtilitiX
+
+**Remove**
+
+Remove Just Enough Mekanism Multiblocks - No longer compatible with JEI update
+
+Remove Domum Ornamentum - Replacement
+
+Remove Mekanism Additions
+
+Remove Deep Dark: Regrowth - Conflict, and already have Deeper and Darker so makes it pointless to have (also a MCreator mod)
+
+**Add**
+
+Add DoesPotatoTick?
+
+Add Ksyxis
+
+Add Ars Scalaes
+
+Add Yung's Better Strongholds
+
+Add Yung's Better End Island
+
+Add Yung's Extras
+
+Add Moog's End Structures
+
+Add The Outer End
+
+---------------------------------------------------------
+
 **Version: 0.3.8**
 
 **Config**

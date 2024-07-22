@@ -5,11 +5,25 @@
 	group: "2AEF3B2A7B460B12"
 	icon: "minecraft:nether_star"
 	id: "421FE07781092FC6"
+	images: [{
+		height: 2.0d
+		image: "kubejs:textures/ftbquests/challenges/challenges_logo.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 0.0d
+		y: -4.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["07E4EEB5EE43F8D9"]
 			id: "39594A41CCF2962D"
+			rewards: [{
+				id: "6D21FAFACEE61353"
+				item: "powah:energy_cell_creative"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1497B9F2851CCD91"
 				max_input: 1000L
@@ -17,44 +31,111 @@
 				type: "forge_energy"
 				value: 1000000000000000L
 			}]
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			id: "0DCFF933902F11AB"
-			tasks: [{
-				count: 64L
-				id: "2E5BD3889AA4731A"
-				item: { Count: 64, id: "compressedblocks:c9_cobblestone" }
-				type: "item"
-			}]
-			title: "223,154,201,664 Cobblestone"
-			x: 0.5d
-			y: 0.0d
-		}
-		{
-			id: "61C6CCE0FA665749"
-			tasks: [{
-				count: 64L
-				id: "6A1428DD56FB1B88"
-				item: { Count: 64, id: "compressedblocks:c9_dirt" }
-				type: "item"
-			}]
-			title: "223,154,201,664 Dirt"
 			x: 1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
-			id: "0089E00AF98D3A58"
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "16C844A8F2C37240"
 			tasks: [{
 				count: 64L
-				id: "220EE99896FD8FA9"
-				item: { Count: 64, id: "compressedblocks:c9_diamond_block" }
+				id: "4F469E8CDED55B2F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(compressedblocks:c9)"
+					}
+				}
+				title: "Any #compressedblocks:c9"
 				type: "item"
 			}]
-			title: "223,154,201,664 Diamond Blocks"
+			title: "Giga Compressed"
 			x: 2.5d
-			y: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "1FAEACCC804679D8"
+			rewards: [{
+				id: "40C19ECB03CA3A8C"
+				item: {
+					Count: 1
+					id: "mekanism:creative_fluid_tank"
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 2147483647
+									FluidName: "minecraft:lava"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				amount: 100000L
+				fluid: "minecraft:lava"
+				id: "5E860CFC85FDADBC"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["There are many useful items you can get as a result of completing challenges. Be sure to check them all out!"]
+			id: "07E4EEB5EE43F8D9"
+			size: 1.5d
+			tasks: [{
+				id: "4091011185E9C0F9"
+				title: "The Beginning of the Challenge"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "35814D0E74FFC85C"
+			rewards: [{
+				id: "3E2EB00BB84BFF24"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "1D069196B97FB2A8"
+				item: {
+					Count: 128
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "0775F2DB0F229B75"
+			rewards: [{
+				id: "7A5F4A87053370E3"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "4CA519E0F739F5FE"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 	title: "Challenges"

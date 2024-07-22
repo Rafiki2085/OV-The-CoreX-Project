@@ -1,6 +1,6 @@
 === FTB Ranks ===
 
-Last README file update: Sat Jun 22 22:53:59 EDT 2024
+Last README file update: Wed Jul 17 14:05:17 EDT 2024
 Wiki: https://www.notion.so/feedthebeast/FTB-Mod-Documentation-da2e359bad2449459d58d787edda3168
 To refresh this file, run /ftbranks refresh_readme
 
@@ -149,10 +149,6 @@ command.betterchunkloading.setsimdist
 command.betterchunkloading.setsimdist.distance
 command.betterchunkloading.setviewdist
 command.betterchunkloading.setviewdist.distance
-command.bettertags
-command.bettertags.copy
-command.bettertags.copy.current_item
-command.bettertags.copy.slot
 command.bookshelf
 command.bookshelf.font
 command.bookshelf.font.block
@@ -206,6 +202,9 @@ command.bossbar.set.id.value
 command.bossbar.set.id.value.value
 command.bossbar.set.id.visible
 command.bossbar.set.id.visible.visible
+command.botanypots
+command.botanypots.dump
+command.botanypots.dump.missing_crops
 command.buildinggadgets2
 command.buildinggadgets2.redprints
 command.buildinggadgets2.redprints.give
@@ -1362,6 +1361,7 @@ command.er
 command.er.coils
 command.er.coils.get
 command.er.coils.get.tag
+command.er.coils.list
 command.er.coils.set
 command.er.coils.set.tag
 command.er.coils.set.tag.bonus
@@ -1372,7 +1372,8 @@ command.er.coils.set.tag.energyExtractionRate
 command.er.coils.set.tag.energyExtractionRate.value
 command.er.moderators
 command.er.moderators.get
-command.er.moderators.get.block
+command.er.moderators.get.name
+command.er.moderators.list
 command.er.moderators.set
 command.er.moderators.set.block
 command.er.moderators.set.block.absorption
@@ -1386,6 +1387,7 @@ command.er.moderators.set.block.moderation.value
 command.er.reactants
 command.er.reactants.get
 command.er.reactants.get.name
+command.er.reactants.list
 command.er.reactants.set
 command.er.reactants.set.name
 command.er.reactants.set.name.absorption
@@ -1403,6 +1405,7 @@ command.er.reactants.set.name.moderation.value
 command.er.reaction
 command.er.reaction.get
 command.er.reaction.get.name
+command.er.reaction.list
 command.er.reaction.set
 command.er.reaction.set.name
 command.er.reaction.set.name.fissionRate
@@ -2152,8 +2155,6 @@ command.gamerule.doWeatherCycle
 command.gamerule.doWeatherCycle.value
 command.gamerule.drowningDamage
 command.gamerule.drowningDamage.value
-command.gamerule.enableGoggles
-command.gamerule.enableGoggles.value
 command.gamerule.fallDamage
 command.gamerule.fallDamage.value
 command.gamerule.fireDamage
@@ -2264,6 +2265,28 @@ command.ie.mineral.put.mineral.radius.pos
 command.ie.mineral.setDepletion
 command.ie.mineral.setDepletion.depletion
 command.ie.mineral.setDepletion.depletion.pos
+command.incontrol
+command.incontrol.area
+command.incontrol.clearphase
+command.incontrol.clearphase.phase
+command.incontrol.clearstats
+command.incontrol.days
+command.incontrol.days.number
+command.incontrol.debug
+command.incontrol.info
+command.incontrol.kill
+command.incontrol.kill.type
+command.incontrol.list
+command.incontrol.numbers
+command.incontrol.phases
+command.incontrol.reload
+command.incontrol.setnumber
+command.incontrol.setnumber.number
+command.incontrol.setnumber.number.value
+command.incontrol.setphase
+command.incontrol.setphase.phase
+command.incontrol.showmobs
+command.incontrol.showstats
 command.invsee
 command.invsee.player
 command.item
