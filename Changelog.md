@@ -19,6 +19,9 @@ FTB Ranks
  - Botanist
  - Electric
  - Enchanted
+ - Wizard
+ - Phased
+ - Traveler
 
 FTB Chunks
  - force_load_mode: "default" -> always
@@ -41,17 +44,27 @@ Update Applied Energistics 2
 
 Update Ars Energistique
 
+Update Ars Nouveau
+
 Update Easy Villagers
 
 Update Botania
 
 Update Botany Pots
 
+Update Chunk-Pregenerator
+
 Update Comforts
 
 Update Connectivity
 
+Update Citadel
+
+Update Cognition
+
 Update Corail Tombstone
+
+Update Cyclops Core
 
 Update Create The Factory Must Grow
 
@@ -67,15 +80,25 @@ Update ExtendedAE
 
 Update Extreme Reactors
 
+Update EvilCraft
+
 Update FTB Library
 
 Update FTB Quests
 
 Update Irons Spellbooks
 
+Update Integrated Dynamics
+
+Update Integrated Terminals
+
+Update Integrated Tunnels
+
 Update HammerLib
 
 Update Just Enough Items
+
+Update JAOPCA
 
 Update Mahou Tsukai
 
@@ -85,17 +108,25 @@ Update ModernFix
 
 Update Modonomicon
 
+Update Moonlight Lib
+
 Update PackagedAuto
 
 Update PackagedExCrafting
+
+Update Occultism
 
 Update Re:Avaritia
 
 Update Recipe Essentials
 
+Update Regions Unexplored
+
 Update SmartBrainLib
 
 Update Titanium
+
+Update Tetra
 
 Update UtilitiX
 

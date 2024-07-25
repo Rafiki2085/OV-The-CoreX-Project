@@ -19,11 +19,20 @@
 		{
 			dependencies: ["07E4EEB5EE43F8D9"]
 			id: "39594A41CCF2962D"
-			rewards: [{
-				id: "6D21FAFACEE61353"
-				item: "powah:energy_cell_creative"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6D21FAFACEE61353"
+					item: "powah:energy_cell_creative"
+					type: "item"
+				}
+				{
+					command: "/ftbranks add @p electric"
+					elevate_perms: true
+					id: "14C896C9DD5149B9"
+					title: "Title: Electric"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "1497B9F2851CCD91"
 				max_input: 1000L
@@ -32,11 +41,18 @@
 				value: 1000000000000000L
 			}]
 			x: 1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["07E4EEB5EE43F8D9"]
 			id: "16C844A8F2C37240"
+			rewards: [{
+				command: "/ftbranks add @p collector"
+				elevate_perms: true
+				id: "4A5F3EB2F03D9887"
+				title: "Title: Collector"
+				type: "command"
+			}]
 			tasks: [{
 				count: 64L
 				id: "4F469E8CDED55B2F"
@@ -51,7 +67,7 @@
 				type: "item"
 			}]
 			title: "Giga Compressed"
-			x: 2.5d
+			x: 4.0d
 			y: -1.5d
 		}
 		{
@@ -82,7 +98,7 @@
 				id: "5E860CFC85FDADBC"
 				type: "fluid"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -100,11 +116,20 @@
 		{
 			dependencies: ["07E4EEB5EE43F8D9"]
 			id: "35814D0E74FFC85C"
-			rewards: [{
-				id: "3E2EB00BB84BFF24"
-				item: "botania:creative_pool"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E2EB00BB84BFF24"
+					item: "botania:creative_pool"
+					type: "item"
+				}
+				{
+					command: "/ftbranks add @p botanist"
+					elevate_perms: true
+					id: "1D63F7D46F656E4D"
+					title: "Title: Botanist"
+					type: "command"
+				}
+			]
 			tasks: [{
 				count: 128L
 				id: "1D069196B97FB2A8"
@@ -118,16 +143,25 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["07E4EEB5EE43F8D9"]
 			id: "0775F2DB0F229B75"
-			rewards: [{
-				id: "7A5F4A87053370E3"
-				item: "ars_nouveau:creative_source_jar"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7A5F4A87053370E3"
+					item: "ars_nouveau:creative_source_jar"
+					type: "item"
+				}
+				{
+					command: "/ftbranks add @p wizard"
+					elevate_perms: true
+					id: "58BBB38882BBB87B"
+					title: "Title: Wizard"
+					type: "command"
+				}
+			]
 			tasks: [{
 				count: 10000L
 				id: "4CA519E0F739F5FE"
@@ -135,7 +169,133 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "7D2A4060A821DA79"
+			rewards: [{
+				command: "/ftbranks add @p phased"
+				elevate_perms: true
+				id: "605E5728A1779596"
+				title: "Title: Phased"
+				type: "command"
+			}]
+			tasks: [{
+				count: 64L
+				id: "200A65ECA19A356A"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "21556354FD7FD07A"
+			rewards: [{
+				command: "/ftbranks add @p traveler "
+				elevate_perms: true
+				id: "2B207F07534BC367"
+				title: "Title: Traveler"
+				type: "command"
+			}]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					id: "103FF61261FE5C29"
+					type: "dimension"
+				}
+				{
+					dimension: "mahoutsukai:reality_marble"
+					id: "6AAA8CE61D91C326"
+					type: "dimension"
+				}
+				{
+					dimension: "ae2:spatial_storage"
+					id: "0362DB2F6A0D0DEA"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "48045EEE56135894"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "55156AC486689E6C"
+					type: "dimension"
+				}
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "03712202ED61FA81"
+					type: "dimension"
+				}
+				{
+					dimension: "javd:void"
+					id: "6AFC3D50DFF58B95"
+					type: "dimension"
+				}
+				{
+					dimension: "mythicbotany:alfheim"
+					id: "3FC3CAED88DD2196"
+					type: "dimension"
+				}
+				{
+					dimension: "bloodmagic:dungeon"
+					id: "47640CFBE768E9CA"
+					type: "dimension"
+				}
+				{
+					dimension: "jamd:end"
+					id: "68E5CB3599543C72"
+					type: "dimension"
+				}
+				{
+					dimension: "jamd:mining"
+					id: "480617AAC5973A03"
+					type: "dimension"
+				}
+				{
+					dimension: "jamd:nether"
+					id: "5121D3141CF40DB2"
+					type: "dimension"
+				}
+				{
+					dimension: "deeperdarker:otherside"
+					id: "19FBF54FE49A3CAE"
+					type: "dimension"
+				}
+			]
+			title: "Dimensions"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "24168DFA24CF564C"
+			tasks: [{
+				id: "29AE7AE2FC1482C5"
+				stat: "minecraft:mob_kills"
+				title: "Slayer"
+				type: "stat"
+				value: 1000000
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07E4EEB5EE43F8D9"]
+			id: "468809E51B7C9028"
+			tasks: [{
+				id: "7FF7335C581A4CF2"
+				stat: "minecraft:damage_taken"
+				title: "Damaged"
+				type: "stat"
+				value: 100000
+			}]
+			x: 3.5d
+			y: -0.5d
 		}
 	]
 	title: "Challenges"
