@@ -21,6 +21,13 @@
 		ftbchunks.max_force_loaded: 10
 		ftbranks.name_format: "&b{name}"
 	}
+	traveler: {
+		name: "Traveler"
+		power: 50
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&5{name}"
+	}
 	collector: {
 		name: "Collector"
 		power: 50
@@ -44,6 +51,20 @@
 	}
 	enchanted: {
 		name: "Enchanted"
+		power: 50
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&5{name}"
+	}
+	wizard: {
+		name: "Wizard"
+		power: 50
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 10
+		ftbranks.name_format: "&5{name}"
+	}
+	phased: {
+		name: "Phased"
 		power: 50
 		ftbchunks.max_claimed: 200
 		ftbchunks.max_force_loaded: 10
